@@ -204,6 +204,15 @@ $messages['ia'] = array(
 	'right-reassignedits' => 'Reattribuer le modificationes de un usator a un altere',
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'reassignedits-new' => '新しい利用者名',
+	'reassignedits-old' => '古い利用者名',
+	'reassignedits-submit' => '送信',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
