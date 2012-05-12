@@ -48,6 +48,13 @@ $messages['qqq'] = array(
 	'right-reassignedits' => '{{doc-right|reassignedits}}',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Jaminianurag
+ */
+$messages['as'] = array(
+	'reassignedits-submit' => 'দাখিল কৰক',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author Jim-by
  * @author Wizardist
@@ -279,5 +286,13 @@ $messages['te'] = array(
 	'reassignedits-new' => 'కొత్త వాడుకరి పేరు',
 	'reassignedits-old' => 'పాత వాడుకరి పేరు',
 	'reassignedits-submit' => 'దాఖలుచెయ్యి',
+);
+
+/** Turkish (Türkçe)
+ * @author Suelnur
+ */
+$messages['tr'] = array(
+	'reassignedits-new' => 'Yeni kullanıcı adı',
+	'reassignedits-old' => 'Eski kullanıcı adı',
 );
 
