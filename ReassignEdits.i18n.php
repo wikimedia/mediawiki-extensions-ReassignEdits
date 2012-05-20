@@ -215,9 +215,15 @@ $messages['ia'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
+	'reassignedits' => '利用者に編集を再割り当て',
+	'reassignedits-desc' => '古い利用者から新しい利用者に編集を再割り当てできるようにする',
+	'reassignedits-error-invalid' => '利用者名「<nowiki>$1</nowiki>」は無効です。',
 	'reassignedits-new' => '新しい利用者名',
 	'reassignedits-old' => '古い利用者名',
 	'reassignedits-submit' => '送信',
+	'reassignedits-success' => '利用者「<nowiki>$1</nowiki>」による編集を「<nowiki>$2</nowiki>」に追加しました。',
+	'reassignedits-summary' => '古い利用者から新しい利用者に編集を再割り当てします。',
+	'right-reassignedits' => '古い利用者から新しい利用者に編集を再割り当て',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
