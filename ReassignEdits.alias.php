@@ -23,3 +23,18 @@ $specialPageAliases['en'] = array(
 $specialPageAliases['de'] = array(
 	'ReassignEdits' => array( 'Bearbeitungen_übertragen', 'Benutzerbearbeitungen_übertragen' ),
 );
+
+/** Luxembourgish (Lëtzebuergesch) */
+$specialPageAliases['lb'] = array(
+	'ReassignEdits' => array( 'Benotzerännerungen_iwwerdroen' ),
+);
+
+/** Macedonian (Македонски) */
+$specialPageAliases['mk'] = array(
+	'ReassignEdits' => array( 'ПреприпишувањеНаУредувања' ),
+);
+
+/** Dutch (Nederlands) */
+$specialPageAliases['nl'] = array(
+	'ReassignEdits' => array( 'BewerkingenToewijzen' ),
+);
