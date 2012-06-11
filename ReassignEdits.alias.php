@@ -19,9 +19,24 @@ $specialPageAliases['en'] = array(
 	'ReassignEdits' => array( 'ReassignEdits', 'ReassignUserEdits' ),
 );
 
+/** Arabic (العربية) */
+$specialPageAliases['ar'] = array(
+	'ReassignEdits' => array( 'إعادة_ارتباط_التعديلات' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'ReassignEdits' => array( 'Bearbeitungen_übertragen', 'Benutzerbearbeitungen_übertragen' ),
+);
+
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'ReassignEdits' => array( 'TahsisanVurnayış', 'TahsisanêKarberiVurnayış' ),
+);
+
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'ReassignEdits' => array( '사용자편집재할당' ),
 );
 
 /** Luxembourgish (Lëtzebuergesch) */
@@ -29,7 +44,7 @@ $specialPageAliases['lb'] = array(
 	'ReassignEdits' => array( 'Benotzerännerungen_iwwerdroen' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'ReassignEdits' => array( 'ПреприпишувањеНаУредувања' ),
 );
