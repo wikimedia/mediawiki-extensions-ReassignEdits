@@ -211,6 +211,20 @@ $messages['ia'] = array(
 	'right-reassignedits' => 'Reattribuer le modificationes de un usator a un altere',
 );
 
+/** Italian (italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'reassignedits' => 'Riassegna contributi utente',
+	'reassignedits-desc' => 'Consente di riassegnare i contributi da un utente vecchio ad un nuovo',
+	'reassignedits-error-invalid' => 'Il nome utente "<nowiki>$1</nowiki>" non è valido',
+	'reassignedits-new' => 'Nuovo nome utente',
+	'reassignedits-old' => 'Vecchio nome utente',
+	'reassignedits-submit' => 'Invia',
+	'reassignedits-success' => 'I contributi di "<nowiki>$1</nowiki>" sono stati aggiunti a "<nowiki>$2</nowiki>"',
+	'right-reassignedits' => 'Riassegna contributi da un utente vecchio ad un nuovo',
+);
+
 /** Japanese (日本語)
  * @author Shirayuki
  */
