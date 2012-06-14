@@ -73,7 +73,7 @@ $messages['be-tarask'] = array(
 	'right-reassignedits' => 'Пераназначэньне рэдагаваньняў ад старога ўдзельніка новаму',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -82,7 +82,7 @@ $messages['bg'] = array(
 	'reassignedits-old' => 'Старо потребителско име',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -109,7 +109,7 @@ $messages['de'] = array(
 	'right-reassignedits' => 'Übertragen von Bearbeitungen eines alten Benutzers zu einem neuen Benutzer',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  */
 $messages['es'] = array(
@@ -126,7 +126,7 @@ $messages['es'] = array(
 	'right-reassignedits' => 'Reasignar las ediciones de un usuario antiguo a otro nuevo.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Gomoko
  */
 $messages['fr'] = array(
@@ -177,7 +177,7 @@ $messages['hsb'] = array(
 	'right-reassignedits' => 'Změny wot stareho wužiwarja k nowemu wužiwarjej přenjesć',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dj
  */
 $messages['hu'] = array(
@@ -194,7 +194,7 @@ $messages['hu'] = array(
 	'right-reassignedits' => 'Régi szerkesztő szerkesztéseinek átvitele az újhoz.',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -257,7 +257,7 @@ $messages['lb'] = array(
 	'right-reassignedits' => 'Ännerunge vun engem ale Benotzer op en neie Benotzer iwwerdroen',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -292,7 +292,7 @@ $messages['nl'] = array(
 	'right-reassignedits' => 'Bewerkingen van een oude gebruiker aan een nieuwe toewijzen',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Luckas Blade
  */
 $messages['pt'] = array(
