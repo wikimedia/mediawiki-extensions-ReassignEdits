@@ -216,13 +216,16 @@ $messages['ia'] = array(
  */
 $messages['it'] = array(
 	'reassignedits' => 'Riassegna contributi utente',
-	'reassignedits-desc' => 'Consente di riassegnare i contributi da un utente vecchio ad un nuovo',
+	'reassignedits-desc' => 'Consente di riassegnare i contributi di un utente vecchio ad un nuovo',
 	'reassignedits-error-invalid' => 'Il nome utente "<nowiki>$1</nowiki>" non è valido',
 	'reassignedits-new' => 'Nuovo nome utente',
 	'reassignedits-old' => 'Vecchio nome utente',
 	'reassignedits-submit' => 'Invia',
 	'reassignedits-success' => 'I contributi di "<nowiki>$1</nowiki>" sono stati aggiunti a "<nowiki>$2</nowiki>"',
-	'right-reassignedits' => 'Riassegna contributi da un utente vecchio ad un nuovo',
+	'reassignedits-summary' => 'Riassegna i contributi di un utente vecchio ad un nuovo',
+	'reassignedits-updatelog-title' => 'Aggiorna nome utente nei titoli dei registri',
+	'reassignedits-updatelog-user' => "Aggiorna utente che ha eseguito l'azione nei registri",
+	'right-reassignedits' => 'Riassegna contributi di un utente vecchio ad un nuovo',
 );
 
 /** Japanese (日本語)
