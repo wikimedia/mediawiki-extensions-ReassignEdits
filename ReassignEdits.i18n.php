@@ -55,7 +55,7 @@ $messages['as'] = array(
 	'reassignedits-submit' => 'দাখিল কৰক',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author Jim-by
  * @author Wizardist
  */
@@ -143,7 +143,7 @@ $messages['fr'] = array(
 	'right-reassignedits' => "Réaffecter les modifications d'un ancien utilisateur à un nouveau",
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -160,7 +160,7 @@ $messages['gl'] = array(
 	'right-reassignedits' => 'Reasignar edicións dun usuario vello a outro novo',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
