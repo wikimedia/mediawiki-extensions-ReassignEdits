@@ -311,6 +311,23 @@ $messages['te'] = array(
 	'reassignedits-submit' => 'దాఖలుచెయ్యి',
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'reassignedits' => 'Muling italaga ang mga pagbabago ng tagagamit',
+	'reassignedits-desc' => 'Nagpapahintulot ng muling pagtatalaga ng mga pagbabago mula sa isang lumang tagagamit papunta sa bagong isa',
+	'reassignedits-error-invalid' => 'Hindi katanggap-tanggap ang pangalan ng tagagamit na "<nowiki>$1</nowiki>".',
+	'reassignedits-new' => 'Bagong pangalan ng tagagamit',
+	'reassignedits-old' => 'Lumang pangalan ng tagagamit',
+	'reassignedits-submit' => 'Ipasa',
+	'reassignedits-success' => 'Ang mga pamamatnugot ni "<nowiki>$1</nowiki>" ay naidagdag na sa "<nowiki>$2</nowiki>".',
+	'reassignedits-summary' => 'Muling italaga ang mga pagbabago mula sa isang lumang tagagamit papunta sa bagong isa.',
+	'reassignedits-updatelog-title' => 'Isapanahon ang pangalan ng tagagamit sa loob ng mga pamagat ng talaan',
+	'reassignedits-updatelog-user' => 'Isapanahon ang tagagamit na tagapagpatupad sa loob ng mga talaan',
+	'right-reassignedits' => 'Muling italaga ang mga pagbabago mula sa isang lumang tagagamit papunta sa bagong isa',
+);
+
 /** Turkish (Türkçe)
  * @author Suelnur
  */
