@@ -93,6 +93,7 @@ $messages['br'] = array(
 
 /** German (Deutsch)
  * @author Kghbln
+ * @author Metalhead64
  * @author SVG
  */
 $messages['de'] = array(
@@ -102,7 +103,7 @@ $messages['de'] = array(
 	'reassignedits-new' => 'Neuer Benutzername',
 	'reassignedits-old' => 'Alter Benutzername',
 	'reassignedits-submit' => 'Ausführen',
-	'reassignedits-success' => 'Die Bearbeitungen von Benutzer „<nowiki>$1</nowiki>“ wurden dem Benutzer „<nowiki>$2</nowiki>“ zugeordnet.',
+	'reassignedits-success' => 'Die Bearbeitungen von Benutzer „<nowiki>$1</nowiki>“ wurden dem Benutzer „<nowiki>$2</nowiki>“ neu zugeordnet.',
 	'reassignedits-summary' => 'Übertrage Bearbeitungen von einem alten Benutzer einem neuen Benutzer.',
 	'reassignedits-updatelog-title' => 'Erneuere den Benutzernamen in Logbucheinträgen',
 	'reassignedits-updatelog-user' => 'Ändere den Benutzernamen des ausführenden Benutzers in den Logbüchern',
@@ -119,7 +120,7 @@ $messages['es'] = array(
 	'reassignedits-new' => 'Nuevo nombre de usuario:',
 	'reassignedits-old' => 'Nombre de usuario antiguo',
 	'reassignedits-submit' => 'Enviar',
-	'reassignedits-success' => 'Las ediciones de «<nowiki>$1</nowiki>» han sido añadidas a «<nowiki>$2</nowiki>»',
+	'reassignedits-success' => 'Las ediciones de «<nowiki>$1</nowiki>» fueron reasignadas a «<nowiki>$2</nowiki>»',
 	'reassignedits-summary' => 'Reasignar las ediciones de un usuario antiguo a otro nuevo.',
 	'reassignedits-updatelog-title' => 'Actualizar el nombre de usuario en los títulos de los registros (log)',
 	'reassignedits-updatelog-user' => 'Actualizar el usuario de ejecución en los registros (log)',
@@ -243,6 +244,23 @@ $messages['ja'] = array(
 	'right-reassignedits' => '古い利用者から新しい利用者に編集を再割り当て',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'reassignedits' => 'Metmaacher iehr Änderonge op Andere övverdraare',
+	'reassignedits-desc' => 'Määd_et müjjelesch, enem ahle Metmaacher sing Änderonge aam Wiki enem neue Metmaacher en de Schohn ze schiebe.',
+	'reassignedits-error-invalid' => 'Ene Metmaacher-Name eß „<nowiki>$1</nowiki>“ ävver nit, dä wöhr nit reschtesch.',
+	'reassignedits-new' => 'Dä neue Metmaacher-Naame',
+	'reassignedits-old' => 'Dä ahle Metmaacher-Naame',
+	'reassignedits-submit' => 'Lohß Jonn!',
+	'reassignedits-success' => 'Däm Metmaacher „<nowiki>$1</nowiki>“ sing Änderonge sin jäz jop dä Metmaacher „<nowiki>$2</nowiki>“ övverdraare.',
+	'reassignedits-summary' => 'Änderonge em Wiki, di ene ahle Metmaacher jemaat hät, obb_ene neue Metmaacher övverdraare.',
+	'reassignedits-updatelog-title' => 'Metmaachernaame en de Logbööscher ußtuusche',
+	'reassignedits-updatelog-user' => 'Don der Naame vun däm Metmaacher, dä et jedonn hät, en de Logbööscher ußtuusche',
+	'right-reassignedits' => 'Änderonge em Wiki, di ene ahle Metmaacher jemaat hät, obb_ene neue Metmaacher övverdraare.',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -321,7 +339,7 @@ $messages['tl'] = array(
 	'reassignedits-new' => 'Bagong pangalan ng tagagamit',
 	'reassignedits-old' => 'Lumang pangalan ng tagagamit',
 	'reassignedits-submit' => 'Ipasa',
-	'reassignedits-success' => 'Ang mga pamamatnugot ni "<nowiki>$1</nowiki>" ay naidagdag na sa "<nowiki>$2</nowiki>".',
+	'reassignedits-success' => 'Ang mga pamamatnugot ni "<nowiki>$1</nowiki>" ay inilipat ng pagkakatalaga papunta kay "<nowiki>$2</nowiki>".',
 	'reassignedits-summary' => 'Muling italaga ang mga pagbabago mula sa isang lumang tagagamit papunta sa bagong isa.',
 	'reassignedits-updatelog-title' => 'Isapanahon ang pangalan ng tagagamit sa loob ng mga pamagat ng talaan',
 	'reassignedits-updatelog-user' => 'Isapanahon ang tagagamit na tagapagpatupad sa loob ng mga talaan',
