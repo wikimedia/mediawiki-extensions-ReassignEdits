@@ -129,6 +129,7 @@ $messages['es'] = array(
 
 /** French (français)
  * @author Gomoko
+ * @author IAlex
  */
 $messages['fr'] = array(
 	'reassignedits' => "Réattribuer les modifications de l'utilisateur",
@@ -137,7 +138,7 @@ $messages['fr'] = array(
 	'reassignedits-new' => 'Nouveau nom de l’utilisateur',
 	'reassignedits-old' => "Ancien nom d'utilisateur",
 	'reassignedits-submit' => 'Envoyer',
-	'reassignedits-success' => 'Les modifications par "<nowiki>$1</nowiki>" ont été ajoutées à "<nowiki>$2</nowiki>".',
+	'reassignedits-success' => 'Les modifications par « <nowiki>$1</nowiki> » ont été réattribuées à « <nowiki>$2</nowiki> ».',
 	'reassignedits-summary' => "Réaffecter les modifications d'un ancien utilisateur à un nouveau.",
 	'reassignedits-updatelog-title' => "Mettre à jour le nom d'utilisateur dans les titres des journaux",
 	'reassignedits-updatelog-user' => "Mettre à jour l'utilisateur d'exécution dans les journaux",
@@ -298,6 +299,7 @@ $messages['mk'] = array(
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Saruman
+ * @author Siebrand
  */
 $messages['nl'] = array(
 	'reassignedits' => 'Gebruikersbewerkingen opnieuw toewijzen',
@@ -306,7 +308,7 @@ $messages['nl'] = array(
 	'reassignedits-new' => 'Nieuwe gebruikersnaam',
 	'reassignedits-old' => 'Oude gebruikersnaam',
 	'reassignedits-submit' => 'Opslaan',
-	'reassignedits-success' => 'De bewerkingen van "<nowiki>$1</nowiki>" zijn toegevoegd aan "<nowiki>$2</nowiki>".',
+	'reassignedits-success' => 'De bewerkingen van "<nowiki>$1</nowiki>" zijn toegewezen aan "<nowiki>$2</nowiki>".',
 	'reassignedits-summary' => 'Bewerkingen van een oude gebruiker aan een nieuwe toewijzen.',
 	'reassignedits-updatelog-title' => 'Gebruikersnaam bijwerkingen in logboektitels',
 	'reassignedits-updatelog-user' => 'Uitvoerende gebruiker in logboeken bijwerken',
