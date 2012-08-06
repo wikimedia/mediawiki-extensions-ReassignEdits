@@ -27,7 +27,7 @@ $messages['en'] = array(
 	'reassignedits-success' => 'The edits by "<nowiki>$1</nowiki>" were reassigned to "<nowiki>$2</nowiki>".',
 	'reassignedits-summary' => 'Reassign edits from an old user to a new one.',
 	'reassignedits-updatelog-title' => 'Update username in log titles',
-	'reassignedits-updatelog-user' => 'Update executive user in logs',
+	'reassignedits-updatelog-user' => 'Update performing user in logs',
 	'right-reassignedits' => 'Reassign edits from an old user to a new one',
 );
 
