@@ -317,9 +317,19 @@ $messages['nl'] = array(
 
 /** Portuguese (português)
  * @author Luckas Blade
+ * @author SandroHc
  */
 $messages['pt'] = array(
 	'reassignedits-new' => 'Novo nome de usuário',
+	'reassignedits-submit' => 'Enviar',
+);
+
+/** Romanian (română)
+ * @author Stelistcristi
+ */
+$messages['ro'] = array(
+	'reassignedits-new' => 'Noul nume de utilizator',
+	'reassignedits-old' => 'Vechiul nume de utilizator',
 );
 
 /** Telugu (తెలుగు)
@@ -354,5 +364,14 @@ $messages['tl'] = array(
 $messages['tr'] = array(
 	'reassignedits-new' => 'Yeni kullanıcı adı',
 	'reassignedits-old' => 'Eski kullanıcı adı',
+);
+
+/** Traditional Chinese (‪中文（繁體）‬)
+ * @author Simon Shek
+ */
+$messages['zh-hant'] = array(
+	'reassignedits-new' => '新用戶名',
+	'reassignedits-old' => '舊用戶名',
+	'reassignedits-submit' => '提交',
 );
 
