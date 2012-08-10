@@ -330,6 +330,7 @@ $messages['pt'] = array(
 $messages['ro'] = array(
 	'reassignedits-new' => 'Noul nume de utilizator',
 	'reassignedits-old' => 'Vechiul nume de utilizator',
+	'reassignedits-submit' => 'Trimite',
 );
 
 /** Telugu (తెలుగు)
@@ -364,6 +365,13 @@ $messages['tl'] = array(
 $messages['tr'] = array(
 	'reassignedits-new' => 'Yeni kullanıcı adı',
 	'reassignedits-old' => 'Eski kullanıcı adı',
+);
+
+/** Simplified Chinese (‪中文（简体）‬)
+ * @author Shirayuki
+ */
+$messages['zh-hans'] = array(
+	'reassignedits-submit' => '提交',
 );
 
 /** Traditional Chinese (‪中文（繁體）‬)
