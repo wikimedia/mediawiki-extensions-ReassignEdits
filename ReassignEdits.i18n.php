@@ -324,6 +324,15 @@ $messages['nl'] = array(
 	'right-reassignedits' => 'Bewerkingen van een oude gebruiker aan een nieuwe toewijzen',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'reassignedits-new' => 'نوی کارن-نوم',
+	'reassignedits-old' => 'زوړ کارن-نوم',
+	'reassignedits-submit' => 'سپارل',
+);
+
 /** Portuguese (português)
  * @author Luckas Blade
  * @author SandroHc
@@ -340,6 +349,13 @@ $messages['ro'] = array(
 	'reassignedits-new' => 'Noul nume de utilizator',
 	'reassignedits-old' => 'Vechiul nume de utilizator',
 	'reassignedits-submit' => 'Trimite',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'reassignedits-submit' => 'යොමන්න',
 );
 
 /** Telugu (తెలుగు)
