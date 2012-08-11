@@ -245,6 +245,15 @@ $messages['ja'] = array(
 	'right-reassignedits' => '古い利用者から新しい利用者に編集を再割り当て',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'reassignedits-new' => 'ახალი მომხმარებლის სახელი',
+	'reassignedits-old' => 'ძველი მომხმარებლის სახელი',
+	'reassignedits-submit' => 'მიღება',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
