@@ -249,6 +249,7 @@ $messages['ja'] = array(
  * @author David1010
  */
 $messages['ka'] = array(
+	'reassignedits-error-invalid' => 'მომხმარებლის სახელი „<nowiki>$1</nowiki>“ არასწორია.',
 	'reassignedits-new' => 'ახალი მომხმარებლის სახელი',
 	'reassignedits-old' => 'ძველი მომხმარებლის სახელი',
 	'reassignedits-submit' => 'მიღება',
