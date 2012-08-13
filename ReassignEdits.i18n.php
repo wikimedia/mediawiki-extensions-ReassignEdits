@@ -127,6 +127,14 @@ $messages['es'] = array(
 	'right-reassignedits' => 'Reasignar las ediciones de un usuario antiguo a otro nuevo.',
 );
 
+/** Estonian (eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'reassignedits-new' => 'Uus kasutajanimi',
+	'reassignedits-old' => 'Vana kasutajanimi',
+);
+
 /** French (français)
  * @author Gomoko
  * @author IAlex
@@ -357,6 +365,15 @@ $messages['ro'] = array(
  */
 $messages['si'] = array(
 	'reassignedits-submit' => 'යොමන්න',
+);
+
+/** Swahili (Kiswahili)
+ * @author Stephenwanjau
+ */
+$messages['sw'] = array(
+	'reassignedits-new' => 'Jina lipya la mtumiaji',
+	'reassignedits-old' => 'Jina nzee la mtumiaji',
+	'reassignedits-submit' => 'Wasilisha',
 );
 
 /** Telugu (తెలుగు)
