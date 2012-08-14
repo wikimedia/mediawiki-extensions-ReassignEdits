@@ -371,6 +371,7 @@ $messages['si'] = array(
  * @author Stephenwanjau
  */
 $messages['sw'] = array(
+	'reassignedits-error-invalid' => 'Jina la mtumiaji "<nowiki>$1</nowiki>" ni batili.',
 	'reassignedits-new' => 'Jina lipya la mtumiaji',
 	'reassignedits-old' => 'Jina nzee la mtumiaji',
 	'reassignedits-submit' => 'Wasilisha',
