@@ -153,6 +153,16 @@ $messages['fr'] = array(
 	'right-reassignedits' => "Réaffecter les modifications d'un ancien utilisateur à un nouveau",
 );
 
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'reassignedits-error-invalid' => 'Lo nom d’utilisator « <nowiki>$1</nowiki> » est envalido.',
+	'reassignedits-new' => 'Novél nom d’utilisator',
+	'reassignedits-old' => 'Viely nom d’utilisator',
+	'reassignedits-submit' => 'Mandar',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
@@ -248,8 +258,9 @@ $messages['ja'] = array(
 	'reassignedits-new' => '新しい利用者名',
 	'reassignedits-old' => '古い利用者名',
 	'reassignedits-submit' => '送信',
-	'reassignedits-success' => '利用者「<nowiki>$1</nowiki>」による編集を「<nowiki>$2</nowiki>」に追加しました。',
+	'reassignedits-success' => '「<nowiki>$1</nowiki>」による編集を「<nowiki>$2</nowiki>」に再割り当てしました。',
 	'reassignedits-summary' => '古い利用者から新しい利用者に編集を再割り当てします。',
+	'reassignedits-updatelog-title' => '記録のタイトルの利用者名を更新',
 	'right-reassignedits' => '古い利用者から新しい利用者に編集を再割り当て',
 );
 
