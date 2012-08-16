@@ -135,6 +135,13 @@ $messages['et'] = array(
 	'reassignedits-old' => 'Vana kasutajanimi',
 );
 
+/** Basque (euskara)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['eu'] = array(
+	'reassignedits-submit' => 'Bidali',
+);
+
 /** French (français)
  * @author Gomoko
  * @author IAlex
