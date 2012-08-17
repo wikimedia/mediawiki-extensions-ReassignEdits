@@ -429,6 +429,15 @@ $messages['tr'] = array(
 	'reassignedits-old' => 'Eski kullanıcı adı',
 );
 
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'reassignedits-new' => 'نیا صارف کا نام',
+	'reassignedits-old' => 'پرانے صارف کا نام',
+	'reassignedits-submit' => 'جمع کرائیں',
+);
+
 /** Simplified Chinese (‪中文（简体）‬)
  * @author Shirayuki
  */
