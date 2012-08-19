@@ -267,7 +267,8 @@ $messages['ja'] = array(
 	'reassignedits-submit' => '送信',
 	'reassignedits-success' => '「<nowiki>$1</nowiki>」による編集を「<nowiki>$2</nowiki>」に再割り当てしました。',
 	'reassignedits-summary' => '古い利用者から新しい利用者に編集を再割り当てします。',
-	'reassignedits-updatelog-title' => '記録のタイトルの利用者名を更新',
+	'reassignedits-updatelog-title' => '記録内の利用者名を更新',
+	'reassignedits-updatelog-user' => '記録内の、実行した利用者を更新',
 	'right-reassignedits' => '古い利用者から新しい利用者に編集を再割り当て',
 );
 
