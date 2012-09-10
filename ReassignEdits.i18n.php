@@ -370,6 +370,13 @@ $messages['pt'] = array(
 	'reassignedits-submit' => 'Enviar',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Luckas Blade
+ */
+$messages['pt-br'] = array(
+	'reassignedits-submit' => 'Enviar',
+);
+
 /** Romanian (română)
  * @author Stelistcristi
  */
