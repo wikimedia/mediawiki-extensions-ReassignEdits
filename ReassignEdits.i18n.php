@@ -446,10 +446,12 @@ $messages['ur'] = array(
 	'reassignedits-submit' => 'جمع کرائیں',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Shirayuki
  */
 $messages['zh-hans'] = array(
+	'reassignedits-new' => '新用户名',
+	'reassignedits-old' => '旧用户名',
 	'reassignedits-submit' => '提交',
 );
 
