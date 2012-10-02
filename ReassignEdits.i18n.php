@@ -55,7 +55,7 @@ $messages['as'] = array(
 	'reassignedits-submit' => 'দাখিল কৰক',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Jim-by
  * @author Wizardist
  */
@@ -455,7 +455,7 @@ $messages['zh-hans'] = array(
 	'reassignedits-submit' => '提交',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
