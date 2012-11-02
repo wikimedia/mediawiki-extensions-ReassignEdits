@@ -448,11 +448,17 @@ $messages['ur'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Shirayuki
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
+	'reassignedits' => '重新分配用户编辑',
+	'reassignedits-desc' => '允许重新分配编辑从一个老用户到一个新用户',
+	'reassignedits-error-invalid' => '用户名“<nowiki>$1</nowiki>”无效。',
 	'reassignedits-new' => '新用户名',
 	'reassignedits-old' => '旧用户名',
 	'reassignedits-submit' => '提交',
+	'reassignedits-success' => '“<nowiki>$1</nowiki>”作出的编辑已重新分配到“<nowiki>$2</nowiki>”。',
+	'reassignedits-summary' => '重新分配一个老用户的编辑到一个新用户。',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
