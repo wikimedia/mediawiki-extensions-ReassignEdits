@@ -34,6 +34,11 @@ $specialPageAliases['diq'] = array(
 	'ReassignEdits' => array( 'TahsisanVurnayış', 'TahsisanêKarberiVurnayış' ),
 );
 
+/** Italian (italiano) */
+$specialPageAliases['it'] = array(
+	'ReassignEdits' => array( 'RiassegnaContributi' ),
+);
+
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
 	'ReassignEdits' => array( '사용자편집재할당' ),
