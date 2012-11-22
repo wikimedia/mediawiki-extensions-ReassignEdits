@@ -58,3 +58,8 @@ $specialPageAliases['mk'] = array(
 $specialPageAliases['nl'] = array(
 	'ReassignEdits' => array( 'BewerkingenToewijzen' ),
 );
+
+/** Sicilian (sicilianu) */
+$specialPageAliases['scn'] = array(
+	'ReassignEdits' => array( 'RiassegnaContributi' ),
+);
