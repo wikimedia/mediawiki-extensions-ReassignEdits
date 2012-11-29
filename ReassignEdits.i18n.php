@@ -142,6 +142,15 @@ $messages['eu'] = array(
 	'reassignedits-submit' => 'Bidali',
 );
 
+/** Finnish (suomi)
+ * @author Nedergard
+ */
+$messages['fi'] = array(
+	'reassignedits-error-invalid' => 'Käyttäjätunnus "<nowiki> $1 </nowiki>" on virheellinen.',
+	'reassignedits-new' => 'Uusi käyttäjätunnus',
+	'reassignedits-old' => 'Vanha käyttäjätunnus',
+);
+
 /** French (français)
  * @author Gomoko
  * @author IAlex
