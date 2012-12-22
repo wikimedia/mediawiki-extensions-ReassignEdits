@@ -142,6 +142,15 @@ $messages['eu'] = array(
 	'reassignedits-submit' => 'Bidali',
 );
 
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'reassignedits-new' => 'نام کاربری جدید',
+	'reassignedits-old' => 'نام کاربری قدیمی',
+	'reassignedits-submit' => 'ثبت',
+);
+
 /** Finnish (suomi)
  * @author Nedergard
  */
@@ -349,16 +358,16 @@ $messages['mk'] = array(
  */
 $messages['nl'] = array(
 	'reassignedits' => 'Gebruikersbewerkingen opnieuw toewijzen',
-	'reassignedits-desc' => 'Laat toe bewerkingen van een oude gebruiker aan een nieuwe toe te wijzen',
+	'reassignedits-desc' => 'Maakt het mogelijk bewerkingen aan een andere gebruiker toe te wijzen',
 	'reassignedits-error-invalid' => 'De gebruikersnaam "<nowiki>$1</nowiki>" is ongeldig.',
 	'reassignedits-new' => 'Nieuwe gebruikersnaam',
 	'reassignedits-old' => 'Oude gebruikersnaam',
 	'reassignedits-submit' => 'Opslaan',
 	'reassignedits-success' => 'De bewerkingen van "<nowiki>$1</nowiki>" zijn toegewezen aan "<nowiki>$2</nowiki>".',
-	'reassignedits-summary' => 'Bewerkingen van een oude gebruiker aan een nieuwe toewijzen.',
+	'reassignedits-summary' => 'Bewerkingen aan een andere gebruiker toewijzen.',
 	'reassignedits-updatelog-title' => 'Gebruikersnaam bijwerkingen in logboektitels',
 	'reassignedits-updatelog-user' => 'Uitvoerende gebruiker in logboeken bijwerken',
-	'right-reassignedits' => 'Bewerkingen van een oude gebruiker aan een nieuwe toewijzen',
+	'right-reassignedits' => 'Bewerkingen aan een andere gebruiker toewijzen',
 );
 
 /** Pashto (پښتو)
@@ -399,6 +408,8 @@ $messages['ro'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'reassignedits-new' => 'නව පරිශීලක නාමය',
+	'reassignedits-old' => 'පැරණි පරිශීලක නාමය',
 	'reassignedits-submit' => 'යොමන්න',
 );
 
@@ -444,6 +455,13 @@ $messages['tl'] = array(
 $messages['tr'] = array(
 	'reassignedits-new' => 'Yeni kullanıcı adı',
 	'reassignedits-old' => 'Eski kullanıcı adı',
+);
+
+/** Ukrainian (українська)
+ * @author Steve.rusyn
+ */
+$messages['uk'] = array(
+	'reassignedits-submit' => 'Відправити',
 );
 
 /** Urdu (اردو)
