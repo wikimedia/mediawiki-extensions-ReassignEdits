@@ -256,6 +256,13 @@ $messages['ia'] = array(
 	'right-reassignedits' => 'Reattribuer le modificationes de un usator a un altere',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['id'] = array(
+	'reassignedits-submit' => 'Kirim',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
@@ -461,6 +468,8 @@ $messages['tr'] = array(
  * @author Steve.rusyn
  */
 $messages['uk'] = array(
+	'reassignedits-new' => "Нове ім'я:",
+	'reassignedits-old' => "Старе ім'я:",
 	'reassignedits-submit' => 'Відправити',
 );
 
