@@ -466,11 +466,20 @@ $messages['tr'] = array(
 
 /** Ukrainian (українська)
  * @author Steve.rusyn
+ * @author Ата
  */
 $messages['uk'] = array(
+	'reassignedits' => 'Перепризначити редагування користувача',
+	'reassignedits-desc' => 'Дозволяє перепризначення редагувань від старого користувача до нового',
+	'reassignedits-error-invalid' => "Недопустиме ім'я користувача: <nowiki>$1</nowiki>.",
 	'reassignedits-new' => "Нове ім'я:",
 	'reassignedits-old' => "Старе ім'я:",
 	'reassignedits-submit' => 'Відправити',
+	'reassignedits-success' => 'Редагування "<nowiki>$1</nowiki>" було перепризначено "<nowiki>$2</nowiki>".',
+	'reassignedits-summary' => 'Перепризначає редагування від старого користувача до нового',
+	'reassignedits-updatelog-title' => "Оновити ім'я користувача у назві журналу",
+	'reassignedits-updatelog-user' => 'Оновити даного користувача у журналах',
+	'right-reassignedits' => 'Перепризначення редагувань від старого користувача до нового',
 );
 
 /** Urdu (اردو)
