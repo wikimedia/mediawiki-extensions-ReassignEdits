@@ -377,6 +377,23 @@ $messages['nl'] = array(
 	'right-reassignedits' => 'Bewerkingen aan een andere gebruiker toewijzen',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'reassignedits' => "Reassegna le modìfiche dl'utent",
+	'reassignedits-desc' => "A përmëtt ëd reassigné modìfiche da n'utent vej a un neuv",
+	'reassignedits-error-invalid' => 'Lë stranòm "<nowiki>$1</nowiki>" a l\'é nen bon',
+	'reassignedits-new' => 'Stranòm neuv',
+	'reassignedits-old' => 'Nòm utent vej',
+	'reassignedits-submit' => 'Spediss',
+	'reassignedits-success' => 'Le modìfiche ëd "<nowiki>$1</nowiki>" a son staite arbatià an "<nowiki>$2</nowiki>"',
+	'reassignedits-summary' => "Reassigné modìfiche da n'utent vej a un neuv.",
+	'reassignedits-updatelog-title' => 'Modìfica nòm utent ant ij tìtoj ëd registr',
+	'reassignedits-updatelog-user' => "Agiorna l'utent ch'a l'ha travajà ant ij registr",
+	'right-reassignedits' => "Reassigné modìfiche da n'utent vej a un neuv",
+);
+
 /** Pashto (پښتو)
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
@@ -411,6 +428,23 @@ $messages['ro'] = array(
 	'reassignedits-submit' => 'Trimite',
 );
 
+/** Russian (русский)
+ * @author Ole Yves
+ */
+$messages['ru'] = array(
+	'reassignedits' => 'Переназначить правки участника',
+	'reassignedits-desc' => 'Позволяет переназначение правок от старого пользователя к новому',
+	'reassignedits-error-invalid' => 'Имя участника «<nowiki>$1</nowiki>» является несуществующим.',
+	'reassignedits-new' => 'Новое имя участника',
+	'reassignedits-old' => 'Старое имя участника',
+	'reassignedits-submit' => 'Отправить',
+	'reassignedits-success' => 'Правки, сделанные «<nowiki>$1</nowiki>», перезаписаны на участника «<nowiki>$2</nowiki>».',
+	'reassignedits-summary' => 'Переназначить правки со старого участника к новому.',
+	'reassignedits-updatelog-title' => 'Обновить имя участника в записях журналов',
+	'reassignedits-updatelog-user' => 'Обновить участника-исполнителя в журналах',
+	'right-reassignedits' => 'Переназначить правки со старого участника к новому',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
@@ -428,6 +462,16 @@ $messages['sw'] = array(
 	'reassignedits-new' => 'Jina lipya la mtumiaji',
 	'reassignedits-old' => 'Jina nzee la mtumiaji',
 	'reassignedits-submit' => 'Wasilisha',
+);
+
+/** Tamil (தமிழ்)
+ * @author Shanmugamp7
+ */
+$messages['ta'] = array(
+	'reassignedits-new' => 'புதிய பயனர் பெயர்',
+	'reassignedits-old' => 'பழைய பயனர் பெயர்',
+	'reassignedits-submit' => 'சமர்ப்பி',
+	'reassignedits-updatelog-title' => 'பதிகைத் தலைப்புகளில் பயனர் பெயரைப் புதுப்பிக்கவும்',
 );
 
 /** Telugu (తెలుగు)
