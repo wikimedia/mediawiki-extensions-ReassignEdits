@@ -428,6 +428,15 @@ $messages['ro'] = array(
 	'reassignedits-submit' => 'Trimite',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'reassignedits-new' => "Nome de l'utende nuève",
+	'reassignedits-old' => "Nome de l'utende vecchie",
+	'reassignedits-submit' => 'Conferme',
+);
+
 /** Russian (русский)
  * @author Ole Yves
  */
