@@ -91,6 +91,14 @@ $messages['br'] = array(
 	'reassignedits-submit' => 'Kas',
 );
 
+/** Czech (česky)
+ * @author Vks
+ */
+$messages['cs'] = array(
+	'reassignedits-old' => 'Staré uživatelské jméno',
+	'reassignedits-submit' => 'Odeslat',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Metalhead64
