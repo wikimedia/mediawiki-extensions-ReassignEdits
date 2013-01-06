@@ -386,20 +386,21 @@ $messages['nl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'reassignedits' => "Reassegna le modìfiche dl'utent",
-	'reassignedits-desc' => "A përmëtt ëd reassigné modìfiche da n'utent vej a un neuv",
+	'reassignedits' => "Atribuì torna le modìfiche dl'utent",
+	'reassignedits-desc' => "A përmëtt l'atribussion ëd le modìfiche da n'utent vej a un neuv",
 	'reassignedits-error-invalid' => 'Lë stranòm "<nowiki>$1</nowiki>" a l\'é nen bon',
 	'reassignedits-new' => 'Stranòm neuv',
-	'reassignedits-old' => 'Nòm utent vej',
+	'reassignedits-old' => 'Stranòm vej',
 	'reassignedits-submit' => 'Spediss',
-	'reassignedits-success' => 'Le modìfiche ëd "<nowiki>$1</nowiki>" a son staite arbatià an "<nowiki>$2</nowiki>"',
-	'reassignedits-summary' => "Reassigné modìfiche da n'utent vej a un neuv.",
-	'reassignedits-updatelog-title' => 'Modìfica nòm utent ant ij tìtoj ëd registr',
+	'reassignedits-success' => 'Le modìfiche ëd «<nowiki>$1</nowiki>» a son ëstàite atribuìe a «<nowiki>$2</nowiki>».',
+	'reassignedits-summary' => "Cangé l'atribussion ëd le modìfiche da n'utent vej a un neuv.",
+	'reassignedits-updatelog-title' => 'Agiorné lë stranòm ant ij tìtoj dij registr',
 	'reassignedits-updatelog-user' => "Agiorna l'utent ch'a l'ha travajà ant ij registr",
-	'right-reassignedits' => "Reassigné modìfiche da n'utent vej a un neuv",
+	'right-reassignedits' => "Cangé l'atribussion ëd le modìfiche da n'utent vej a un neuv",
 );
 
 /** Pashto (پښتو)
