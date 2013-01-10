@@ -41,7 +41,7 @@ $specialPageAliases['it'] = array(
 
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
-	'ReassignEdits' => array( '사용자편집재할당' ),
+	'ReassignEdits' => array( '편집재할당', '사용자편집재할당' ),
 );
 
 /** Luxembourgish (Lëtzebuergesch) */
