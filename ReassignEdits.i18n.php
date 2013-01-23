@@ -566,6 +566,9 @@ $messages['zh-hans'] = array(
 	'reassignedits-submit' => '提交',
 	'reassignedits-success' => '“<nowiki>$1</nowiki>”作出的编辑已重新分配到“<nowiki>$2</nowiki>”。',
 	'reassignedits-summary' => '重新分配一个老用户的编辑到一个新用户。',
+	'reassignedits-updatelog-title' => '更新日志标题中的用户名',
+	'reassignedits-updatelog-user' => '更新日志中的执行用户',
+	'right-reassignedits' => '重新分配编辑从一个老用户到一个新用户',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
