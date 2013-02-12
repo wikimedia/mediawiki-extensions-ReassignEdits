@@ -313,6 +313,7 @@ $messages['ka'] = array(
 	'reassignedits-new' => 'ახალი მომხმარებლის სახელი',
 	'reassignedits-old' => 'ძველი მომხმარებლის სახელი',
 	'reassignedits-submit' => 'მიღება',
+	'reassignedits-updatelog-title' => 'მომხმარებლის სახელის განახლება ჟურნალების ჩანაწერებში',
 );
 
 /** Colognian (Ripoarisch)
