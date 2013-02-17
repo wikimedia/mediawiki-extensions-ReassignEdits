@@ -33,9 +33,10 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author SVG
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'reassignedits' => 'Name of Special:ReassignEdits in Special:SpecialPages and title of Special:ReassignEdits page',
+	'reassignedits' => 'Name of Special:ReassignEdits in [[Special:SpecialPages]] and title of Special:ReassignEdits page',
 	'reassignedits-desc' => '{{desc}}',
 	'reassignedits-error-invalid' => 'Error message which will be shown if given user name is invalid',
 	'reassignedits-new' => '{{msg-mw|reassignedits-new}}',
