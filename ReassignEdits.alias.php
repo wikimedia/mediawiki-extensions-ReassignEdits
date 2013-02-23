@@ -63,3 +63,8 @@ $specialPageAliases['nl'] = array(
 $specialPageAliases['scn'] = array(
 	'ReassignEdits' => array( 'RiassegnaContributi' ),
 );
+
+/** Simplified Chinese (中文（简体）‎) */
+$specialPageAliases['zh-hans'] = array(
+	'ReassignEdits' => array( '再分配用户编辑' ),
+);
