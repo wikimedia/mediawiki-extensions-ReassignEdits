@@ -37,7 +37,7 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'reassignedits' => 'Name of Special:ReassignEdits in [[Special:SpecialPages]] and title of Special:ReassignEdits page',
-	'reassignedits-desc' => '{{desc}}',
+	'reassignedits-desc' => '{{desc|name=Reassign Edits|url=http://www.mediawiki.org/wiki/Extension:ReassignEdits}}',
 	'reassignedits-error-invalid' => 'Error message which will be shown if given user name is invalid',
 	'reassignedits-new' => '{{msg-mw|reassignedits-new}}',
 	'reassignedits-old' => '{{msg-mw|reassignedits-old}}',
