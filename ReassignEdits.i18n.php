@@ -36,7 +36,7 @@ $messages['en'] = array(
  * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'reassignedits' => 'Name of Special:ReassignEdits in [[Special:SpecialPages]] and title of Special:ReassignEdits page',
+	'reassignedits' => '{{doc-special|ReassignEdits}}',
 	'reassignedits-desc' => '{{desc|name=Reassign Edits|url=http://www.mediawiki.org/wiki/Extension:ReassignEdits}}',
 	'reassignedits-error-invalid' => 'Error message which will be shown if given user name is invalid',
 	'reassignedits-new' => '{{msg-mw|reassignedits-new}}',
