@@ -368,6 +368,14 @@ $messages['mk'] = array(
 	'right-reassignedits' => 'Префрлање на уредувања од стар на нов корисник',
 );
 
+/** Low German (Plattdüütsch)
+ * @author Joachim Mos
+ */
+$messages['nds'] = array(
+	'reassignedits-new' => 'Nee Brukernaam:',
+	'reassignedits-old' => 'Oold Brukernaam',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Saruman
