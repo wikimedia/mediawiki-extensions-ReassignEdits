@@ -39,6 +39,11 @@ $specialPageAliases['it'] = array(
 	'ReassignEdits' => array( 'RiassegnaContributi' ),
 );
 
+/** Japanese (日本語) */
+$specialPageAliases['ja'] = array(
+	'ReassignEdits' => array( '編集再割り当て' ),
+);
+
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
 	'ReassignEdits' => array( '편집재할당', '사용자편집재할당' ),
