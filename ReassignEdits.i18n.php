@@ -49,7 +49,7 @@ $messages['qqq'] = array(
 	'right-reassignedits' => '{{doc-right|reassignedits}}',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Jaminianurag
  */
 $messages['as'] = array(
@@ -423,6 +423,7 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (português)
+ * @author Luckas
  * @author Luckas Blade
  * @author SandroHc
  */
@@ -432,6 +433,7 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Luckas
  * @author Luckas Blade
  */
 $messages['pt-br'] = array(
