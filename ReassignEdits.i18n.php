@@ -453,9 +453,11 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'reassignedits' => "Riassegne le cangiaminde de l'utende",
 	'reassignedits-new' => "Nome de l'utende nuève",
 	'reassignedits-old' => "Nome de l'utende vecchie",
 	'reassignedits-submit' => 'Conferme',
+	'reassignedits-updatelog-title' => "Aggiorne 'u nome de l'utende jndr'à l'archivije de le titole",
 );
 
 /** Russian (русский)
