@@ -92,6 +92,13 @@ $messages['br'] = array(
 	'reassignedits-submit' => 'Kas',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'reassignedits-submit' => 'ДӀадахьийта',
+);
+
 /** Czech (česky)
  * @author Vks
  */
@@ -454,10 +461,16 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'reassignedits' => "Riassegne le cangiaminde de l'utende",
+	'reassignedits-desc' => "Permette 'a reassegnazione de le cangiaminde da 'nu vecchie utende a une nuève",
+	'reassignedits-error-invalid' => '\'U nome utende "<nowiki>$1</nowiki>" jè invalide.',
 	'reassignedits-new' => "Nome de l'utende nuève",
 	'reassignedits-old' => "Nome de l'utende vecchie",
 	'reassignedits-submit' => 'Conferme',
+	'reassignedits-success' => 'Le cangiaminde de "<nowiki>$1</nowiki>" onne state reassegnate a "<nowiki>$2</nowiki>".',
+	'reassignedits-summary' => "Reassegne le cangiaminde de 'n'utende vecchie a une nuève.",
 	'reassignedits-updatelog-title' => "Aggiorne 'u nome de l'utende jndr'à l'archivije de le titole",
+	'reassignedits-updatelog-user' => "Aggiorne le aziune de l'utende jndr'à l'archivije",
+	'right-reassignedits' => "Reassegne le cangiaminde de 'n'utende vecchie a une nuève",
 );
 
 /** Russian (русский)
