@@ -31,7 +31,7 @@ $specialPageAliases['de'] = array(
 
 /** Zazaki (Zazaki) */
 $specialPageAliases['diq'] = array(
-	'ReassignEdits' => array( 'TahsisanVurnayış', 'TahsisanêKarberiVurnayış' ),
+	'ReassignEdits' => array( 'TehsisanVırnayış', 'TehsisanéKarberiVurnayış' ),
 );
 
 /** Italian (italiano) */
