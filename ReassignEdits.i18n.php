@@ -96,6 +96,8 @@ $messages['br'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'reassignedits-new' => 'Керла декъашхон цӀе',
+	'reassignedits-old' => 'Хьалхалерра декъашхон цӀе',
 	'reassignedits-submit' => 'ДӀадахьийта',
 );
 
