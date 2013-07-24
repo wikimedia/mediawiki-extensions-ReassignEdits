@@ -501,6 +501,15 @@ $messages['si'] = array(
 	'reassignedits-submit' => 'යොමන්න',
 );
 
+/** Swedish (svenska)
+ * @author Jopparn
+ */
+$messages['sv'] = array(
+	'reassignedits-new' => 'Nytt användarnamn',
+	'reassignedits-old' => 'Gammalt användarnamn',
+	'reassignedits-submit' => 'Skicka',
+);
+
 /** Swahili (Kiswahili)
  * @author Stephenwanjau
  */
