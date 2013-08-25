@@ -38,11 +38,16 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'reassignedits' => '{{doc-special|ReassignEdits}}',
 	'reassignedits-desc' => '{{desc|name=Reassign Edits|url=http://www.mediawiki.org/wiki/Extension:ReassignEdits}}',
-	'reassignedits-error-invalid' => 'Error message which will be shown if given user name is invalid',
+	'reassignedits-error-invalid' => 'Error message which will be shown if given user name is invalid. Parameters:
+* $1 - the old or new username',
 	'reassignedits-new' => '{{msg-mw|reassignedits-new}}',
 	'reassignedits-old' => '{{msg-mw|reassignedits-old}}',
 	'reassignedits-submit' => '{{Identical|Submit}}',
-	'reassignedits-success' => 'Success message when user edits has been successfully moved from one user to another one',
+	'reassignedits-success' => 'Success message when user edits has been successfully moved from one user to another one.
+
+Parameters:
+* $1 - old username
+* $2 - new username',
 	'reassignedits-summary' => 'Short summary on Special:ReassignEdits how-to-use this extensions',
 	'reassignedits-updatelog-title' => 'Checkbox: {{msg-mw|reassignedits-updatelog-title}}',
 	'reassignedits-updatelog-user' => 'Checkbox: {{msg-mw|reassignedits-updatelog-user}}',
