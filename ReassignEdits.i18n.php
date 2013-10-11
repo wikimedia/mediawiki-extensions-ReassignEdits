@@ -437,12 +437,14 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (português)
+ * @author Hamilton Abreu
  * @author Luckas
  * @author Luckas Blade
  * @author SandroHc
  */
 $messages['pt'] = array(
-	'reassignedits-new' => 'Novo nome de usuário',
+	'reassignedits-new' => 'Novo nome de utilizador',
+	'reassignedits-old' => 'Anterior nome de utilizador',
 	'reassignedits-submit' => 'Enviar',
 );
 
