@@ -106,7 +106,7 @@ $messages['ce'] = array(
 	'reassignedits-submit' => 'ДӀадахьийта',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Vks
  */
 $messages['cs'] = array(
