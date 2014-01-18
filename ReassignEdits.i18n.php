@@ -331,6 +331,13 @@ $messages['ka'] = array(
 	'reassignedits-updatelog-title' => 'მომხმარებლის სახელის განახლება ჟურნალების ჩანაწერებში',
 );
 
+/** Korean (한국어)
+ * @author Priviet
+ */
+$messages['ko'] = array(
+	'reassignedits-submit' => '제출',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
