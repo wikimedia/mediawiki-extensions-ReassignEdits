@@ -335,6 +335,9 @@ $messages['ka'] = array(
  * @author Priviet
  */
 $messages['ko'] = array(
+	'reassignedits' => '사용자 편집을 재할당',
+	'reassignedits-new' => '새로운  사용자이름',
+	'reassignedits-old' => '기존 사용자이름',
 	'reassignedits-submit' => '제출',
 );
 
