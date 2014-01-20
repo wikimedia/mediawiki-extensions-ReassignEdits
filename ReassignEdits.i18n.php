@@ -336,9 +336,15 @@ $messages['ka'] = array(
  */
 $messages['ko'] = array(
 	'reassignedits' => '사용자 편집을 재할당',
+	'reassignedits-error-invalid' => '사용자 이름 "<nowiki>$1</nowiki>"가 유효하지 않습니다.',
 	'reassignedits-new' => '새로운  사용자이름',
 	'reassignedits-old' => '기존 사용자이름',
 	'reassignedits-submit' => '제출',
+	'reassignedits-success' => '"<nowiki>$1</nowiki>" 사용자의 편집이 "<nowiki>$2</nowiki>" 사용자에게 재할당됐습니다.',
+	'reassignedits-summary' => '기존의 사용자에게서 새로운 사용자에게로 재할당된 편집.',
+	'reassignedits-updatelog-title' => '기록 제목의 사용자이름 업데이트',
+	'reassignedits-updatelog-user' => '기록상에서 수행한 사용자 업데이트',
+	'right-reassignedits' => '기존의 사용자에게서 새로운 사용자에게로 재할당된 편집.',
 );
 
 /** Colognian (Ripoarisch)
