@@ -336,6 +336,7 @@ $messages['ka'] = array(
  */
 $messages['ko'] = array(
 	'reassignedits' => '사용자 편집을 재할당',
+	'reassignedits-desc' => '이전 사용자에게서 새로운 사용자에게로 편집을 재할당 허용',
 	'reassignedits-error-invalid' => '사용자 이름 "<nowiki>$1</nowiki>"가 유효하지 않습니다.',
 	'reassignedits-new' => '새로운  사용자이름',
 	'reassignedits-old' => '기존 사용자이름',
