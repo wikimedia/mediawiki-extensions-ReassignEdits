@@ -166,12 +166,15 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Mjbmr
  */
 $messages['fa'] = array(
 	'reassignedits-new' => 'نام کاربری جدید',
 	'reassignedits-old' => 'نام کاربری قدیمی',
 	'reassignedits-submit' => 'ثبت',
+	'reassignedits-updatelog-title' => 'به روز رسانی نام کاربری در عناوین ورود',
+	'reassignedits-updatelog-user' => 'به روز رسانی اجرای کاربر در ورودها',
 );
 
 /** Finnish (suomi)
