@@ -61,6 +61,23 @@ $messages['as'] = array(
 	'reassignedits-submit' => 'দাখিল কৰক',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'reassignedits' => "Re-atribuir ediciones d'usuariu",
+	'reassignedits-desc' => "Permite re-atribuir les ediciones d'un usuariu antiguu a otru nuevu",
+	'reassignedits-error-invalid' => 'El nome d\'usuariu "<nowiki>$1</nowiki>" nun ye válidu.',
+	'reassignedits-new' => "Nome d'usuariu nuevu",
+	'reassignedits-old' => "Nome d'usuariu antiguu",
+	'reassignedits-submit' => 'Unviar',
+	'reassignedits-success' => 'Les ediciones de «<nowiki>$1</nowiki>» se re-atribuyeron a «<nowiki>$2</nowiki>»',
+	'reassignedits-summary' => "Re-atribuir les ediciones d'un usuariu antiguu a otru nuevu.",
+	'reassignedits-updatelog-title' => "Anovar el nome d'usuariu nos títulos de los rexistros",
+	'reassignedits-updatelog-user' => "Anovar l'usuariu d'execución nos rexistros",
+	'right-reassignedits' => "Re-atribuir les ediciones d'un usuariu antiguu a otru nuevu",
+);
+
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Jim-by
  * @author Wizardist
