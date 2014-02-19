@@ -25,6 +25,11 @@ $specialPageAliases['ar'] = array(
 	'ReassignEdits' => array( 'إعادة_ارتباط_التعديلات' ),
 );
 
+/** Egyptian Spoken Arabic (مصرى) */
+$specialPageAliases['arz'] = array(
+	'ReassignEdits' => array( 'عمل_ربط_للتعديلات' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'ReassignEdits' => array( 'Bearbeitungen_übertragen', 'Benutzerbearbeitungen_übertragen' ),
