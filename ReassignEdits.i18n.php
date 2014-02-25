@@ -187,9 +187,12 @@ $messages['eu'] = array(
  * @author Mjbmr
  */
 $messages['fa'] = array(
+	'reassignedits' => 'دوباره گماشتن ویرایش‌های کاربر',
+	'reassignedits-error-invalid' => 'نام کاربری "<nowiki>$1</nowiki>" نامعتبر است.',
 	'reassignedits-new' => 'نام کاربری جدید',
 	'reassignedits-old' => 'نام کاربری قدیمی',
 	'reassignedits-submit' => 'ثبت',
+	'reassignedits-success' => 'ویرایش‌ها توسط "<nowiki>$1</nowiki>" به "<nowiki>$2</nowiki>" دوباره گماشته شد.',
 	'reassignedits-updatelog-title' => 'به روز رسانی نام کاربری در عناوین ورود',
 	'reassignedits-updatelog-user' => 'به روز رسانی اجرای کاربر در ورودها',
 );
