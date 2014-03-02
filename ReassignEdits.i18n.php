@@ -188,13 +188,16 @@ $messages['eu'] = array(
  */
 $messages['fa'] = array(
 	'reassignedits' => 'دوباره گماشتن ویرایش‌های کاربر',
+	'reassignedits-desc' => 'اجازهٔ دوباره گماشتن ویرایش‌ها از یک کاربر قدیمی به یک کاربر جدید',
 	'reassignedits-error-invalid' => 'نام کاربری "<nowiki>$1</nowiki>" نامعتبر است.',
 	'reassignedits-new' => 'نام کاربری جدید',
 	'reassignedits-old' => 'نام کاربری قدیمی',
 	'reassignedits-submit' => 'ثبت',
 	'reassignedits-success' => 'ویرایش‌ها توسط "<nowiki>$1</nowiki>" به "<nowiki>$2</nowiki>" دوباره گماشته شد.',
+	'reassignedits-summary' => 'دوباره گماشتن ویرایش‌ها از یک کاربر قدیمی به یک کاربر جدید.',
 	'reassignedits-updatelog-title' => 'به روز رسانی نام کاربری در عناوین ورود',
 	'reassignedits-updatelog-user' => 'به روز رسانی اجرای کاربر در ورودها',
+	'right-reassignedits' => 'دوباره گماشتن ویرایش‌ها از یک کاربر قدیمی به یک کاربر جدید.',
 );
 
 /** Finnish (suomi)
