@@ -18,7 +18,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'author'         => array( 'Tim Weyer' ),
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:ReassignEdits',
 	'descriptionmsg' => 'reassignedits-desc',
-	'version'        => '0.2.0',
+	'version'        => '0.3.0',
 );
 
 // Add permission required to use Special:ReassignEdits
@@ -30,6 +30,7 @@ $wgGroupPermissions['bureaucrat']['reassignedits'] = true;
 
 // Internationalization files
 $dir = __DIR__ . '/';
+$wgMessagesDirs['ReassignEdits'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['ReassignEdits'] = $dir . 'ReassignEdits.i18n.php';
 $wgExtensionMessagesFiles['ReassignEditsAliases'] = $dir . 'ReassignEdits.alias.php';
 

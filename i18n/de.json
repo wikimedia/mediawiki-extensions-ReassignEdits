@@ -1,0 +1,20 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kghbln",
+            "Metalhead64",
+            "SVG"
+        ]
+    },
+    "reassignedits": "Bearbeitungen übertragen",
+    "reassignedits-desc": "Ermöglicht die Übertragung von Bearbeitungen vom alten Benutzer auf den neuen Benutzer",
+    "reassignedits-error-invalid": "Der Benutzername „<nowiki>$1</nowiki>“ ist ungültig.",
+    "reassignedits-new": "Neuer Benutzername",
+    "reassignedits-old": "Alter Benutzername",
+    "reassignedits-submit": "Ausführen",
+    "reassignedits-success": "Die Bearbeitungen von Benutzer „<nowiki>$1</nowiki>“ wurden dem Benutzer „<nowiki>$2</nowiki>“ neu zugeordnet.",
+    "reassignedits-summary": "Übertrage Bearbeitungen von einem alten Benutzer einem neuen Benutzer.",
+    "reassignedits-updatelog-title": "Erneuere den Benutzernamen in Logbucheinträgen",
+    "reassignedits-updatelog-user": "Ändere den Benutzernamen des ausführenden Benutzers in den Logbüchern",
+    "right-reassignedits": "Übertragen von Bearbeitungen eines alten Benutzers zu einem neuen Benutzer"
+}

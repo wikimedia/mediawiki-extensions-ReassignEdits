@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "Gomoko",
+            "IAlex"
+        ]
+    },
+    "reassignedits": "Réattribuer les modifications de l'utilisateur",
+    "reassignedits-desc": "Permettre la réaffectation des modifications d'un ancien utilisateur à un nouveau",
+    "reassignedits-error-invalid": "Le nom d'utilisateur \"<nowiki>$1</nowiki>\" n'est pas valide.",
+    "reassignedits-new": "Nouveau nom de l’utilisateur",
+    "reassignedits-old": "Ancien nom d'utilisateur",
+    "reassignedits-submit": "Envoyer",
+    "reassignedits-success": "Les modifications par « <nowiki>$1</nowiki> » ont été réattribuées à « <nowiki>$2</nowiki> ».",
+    "reassignedits-summary": "Réaffecter les modifications d'un ancien utilisateur à un nouveau.",
+    "reassignedits-updatelog-title": "Mettre à jour le nom d'utilisateur dans les titres des journaux",
+    "reassignedits-updatelog-user": "Mettre à jour l'utilisateur d'exécution dans les journaux",
+    "right-reassignedits": "Réaffecter les modifications d'un ancien utilisateur à un nouveau"
+}

@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Nedergard"
+        ]
+    },
+    "reassignedits-error-invalid": "Käyttäjätunnus \"<nowiki> $1 </nowiki>\" on virheellinen.",
+    "reassignedits-new": "Uusi käyttäjätunnus",
+    "reassignedits-old": "Vanha käyttäjätunnus"
+}
