@@ -79,3 +79,8 @@ $specialPageAliases['scn'] = array(
 $specialPageAliases['zh-hans'] = array(
 	'ReassignEdits' => array( '再分配用户编辑' ),
 );
+
+/** Traditional Chinese (中文（繁體）‎) */
+$specialPageAliases['zh-hant'] = array(
+	'ReassignEdits' => array( '再整合編輯' ),
+);
