@@ -1,18 +1,18 @@
 {
-    "@metadata": {
-        "authors": [
-            "Dj"
-        ]
-    },
-    "reassignedits": "Szerkesztések átadása",
-    "reassignedits-desc": "A régi szerkesztőtől átvihetőek a szerkesztések az új szerkesztőhöz",
-    "reassignedits-error-invalid": "A \"<nowiki>$1</nowiki>\" szerkesztőnév érvénytelen.",
-    "reassignedits-new": "Új szerkesztőnév",
-    "reassignedits-old": "Régi szerkesztőnév",
-    "reassignedits-submit": "Elküld",
-    "reassignedits-success": "\"<nowiki>$1</nowiki>\" szerkesztése áttéve \"<nowiki>$2</nowiki>\" szerkesztéséhez.",
-    "reassignedits-summary": "Régi szerkesztő szerkesztéseinek átvitel új szerkesztőhöz.",
-    "reassignedits-updatelog-title": "Felhasználó név frissítése a napló címekben",
-    "reassignedits-updatelog-user": "Végrehajtó szerkesztő frissítése a naplókban",
-    "right-reassignedits": "Régi szerkesztő szerkesztéseinek átvitele az újhoz."
+	"@metadata": {
+		"authors": [
+			"Dj"
+		]
+	},
+	"reassignedits": "Szerkesztések átadása",
+	"reassignedits-desc": "A régi szerkesztőtől átvihetőek a szerkesztések az új szerkesztőhöz",
+	"reassignedits-error-invalid": "A \"<nowiki>$1</nowiki>\" szerkesztőnév érvénytelen.",
+	"reassignedits-new": "Új szerkesztőnév",
+	"reassignedits-old": "Régi szerkesztőnév",
+	"reassignedits-submit": "Elküld",
+	"reassignedits-success": "\"<nowiki>$1</nowiki>\" szerkesztése áttéve \"<nowiki>$2</nowiki>\" szerkesztéséhez.",
+	"reassignedits-summary": "Régi szerkesztő szerkesztéseinek átvitel új szerkesztőhöz.",
+	"reassignedits-updatelog-title": "Felhasználó név frissítése a napló címekben",
+	"reassignedits-updatelog-user": "Végrehajtó szerkesztő frissítése a naplókban",
+	"right-reassignedits": "Régi szerkesztő szerkesztéseinek átvitele az újhoz."
 }

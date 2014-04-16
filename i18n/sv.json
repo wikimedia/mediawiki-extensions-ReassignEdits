@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Jopparn"
-        ]
-    },
-    "reassignedits-new": "Nytt användarnamn",
-    "reassignedits-old": "Gammalt användarnamn",
-    "reassignedits-submit": "Skicka"
+	"@metadata": {
+		"authors": [
+			"Jopparn"
+		]
+	},
+	"reassignedits-new": "Nytt användarnamn",
+	"reassignedits-old": "Gammalt användarnamn",
+	"reassignedits-submit": "Skicka"
 }

@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Simon Shek"
-        ]
-    },
-    "reassignedits-new": "新用戶名",
-    "reassignedits-old": "舊用戶名",
-    "reassignedits-submit": "提交"
+	"@metadata": {
+		"authors": [
+			"Simon Shek"
+		]
+	},
+	"reassignedits-new": "新用戶名",
+	"reassignedits-old": "舊用戶名",
+	"reassignedits-submit": "提交"
 }

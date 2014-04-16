@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "ChrisPtDe"
-        ]
-    },
-    "reassignedits-error-invalid": "Lo nom d’utilisator « <nowiki>$1</nowiki> » est envalido.",
-    "reassignedits-new": "Novél nom d’utilisator",
-    "reassignedits-old": "Viely nom d’utilisator",
-    "reassignedits-submit": "Mandar"
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"reassignedits-error-invalid": "Lo nom d’utilisator « <nowiki>$1</nowiki> » est envalido.",
+	"reassignedits-new": "Novél nom d’utilisator",
+	"reassignedits-old": "Viely nom d’utilisator",
+	"reassignedits-submit": "Mandar"
 }

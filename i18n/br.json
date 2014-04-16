@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Fulup"
-        ]
-    },
-    "reassignedits-new": "Anv implijer nevez",
-    "reassignedits-old": "Anv implijer kozh",
-    "reassignedits-submit": "Kas"
+	"@metadata": {
+		"authors": [
+			"Fulup"
+		]
+	},
+	"reassignedits-new": "Anv implijer nevez",
+	"reassignedits-old": "Anv implijer kozh",
+	"reassignedits-submit": "Kas"
 }

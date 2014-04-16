@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "DCLXVI"
-        ]
-    },
-    "reassignedits-error-invalid": "Потребителското име „<nowiki>$1</nowiki>“ е невалидно.",
-    "reassignedits-new": "Ново потребителско име",
-    "reassignedits-old": "Старо потребителско име"
+	"@metadata": {
+		"authors": [
+			"DCLXVI"
+		]
+	},
+	"reassignedits-error-invalid": "Потребителското име „<nowiki>$1</nowiki>“ е невалидно.",
+	"reassignedits-new": "Ново потребителско име",
+	"reassignedits-old": "Старо потребителско име"
 }

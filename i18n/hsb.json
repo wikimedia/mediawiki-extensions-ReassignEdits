@@ -1,18 +1,18 @@
 {
-    "@metadata": {
-        "authors": [
-            "Michawiki"
-        ]
-    },
-    "reassignedits": "Wužiwarske změny přenjesć",
-    "reassignedits-desc": "Zmóžnja přenošowanje změnow wot stareho wužiwarja k nowemu wužiwarjej",
-    "reassignedits-error-invalid": "Wužiwarske mjeno „<nowiki>$1</nowiki>“ je njepłaćiwe.",
-    "reassignedits-new": "Nowe wužiwarske mjeno",
-    "reassignedits-old": "Stare wužiwarske mjeno",
-    "reassignedits-submit": "Wotpósłać",
-    "reassignedits-success": "Změny wužiwarja \"<nowiki>$1</nowiki>\" su so wužiwarjej \"<nowiki>$2</nowiki>\" připokazali.",
-    "reassignedits-summary": "Změny wot stareho wužiwarja k nowemu wužiwarjej přenjesć",
-    "reassignedits-updatelog-title": "Wužiwarske mjeno w protokolowych zapiskach aktualizować",
-    "reassignedits-updatelog-user": "Wužiwarske mjeno wuwjedźomneho wužiwarja w protokolach aktualizować",
-    "right-reassignedits": "Změny wot stareho wužiwarja k nowemu wužiwarjej přenjesć"
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"reassignedits": "Wužiwarske změny přenjesć",
+	"reassignedits-desc": "Zmóžnja přenošowanje změnow wot stareho wužiwarja k nowemu wužiwarjej",
+	"reassignedits-error-invalid": "Wužiwarske mjeno „<nowiki>$1</nowiki>“ je njepłaćiwe.",
+	"reassignedits-new": "Nowe wužiwarske mjeno",
+	"reassignedits-old": "Stare wužiwarske mjeno",
+	"reassignedits-submit": "Wotpósłać",
+	"reassignedits-success": "Změny wužiwarja \"<nowiki>$1</nowiki>\" su so wužiwarjej \"<nowiki>$2</nowiki>\" připokazali.",
+	"reassignedits-summary": "Změny wot stareho wužiwarja k nowemu wužiwarjej přenjesć",
+	"reassignedits-updatelog-title": "Wužiwarske mjeno w protokolowych zapiskach aktualizować",
+	"reassignedits-updatelog-user": "Wužiwarske mjeno wuwjedźomneho wužiwarja w protokolach aktualizować",
+	"right-reassignedits": "Změny wot stareho wužiwarja k nowemu wužiwarjej přenjesć"
 }

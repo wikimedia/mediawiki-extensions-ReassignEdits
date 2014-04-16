@@ -1,18 +1,18 @@
 {
-    "@metadata": {
-        "authors": [
-            "Bjankuloski06"
-        ]
-    },
-    "reassignedits": "Префрлање на кориснички уредувања",
-    "reassignedits-desc": "Овозможува префрлање на уредувања од стар на нов корисник",
-    "reassignedits-error-invalid": "Корисничкото име „<nowiki>$1</nowiki>“ не е важечко.",
-    "reassignedits-new": "Ново корисничко име",
-    "reassignedits-old": "Старо корисничко име",
-    "reassignedits-submit": "Поднеси",
-    "reassignedits-success": "Уредувањата на „<nowiki>$1</nowiki>“ сега му се припишани на корисникот „<nowiki>$2</nowiki>“.",
-    "reassignedits-summary": "Префрлање на уредувања од стар на нов корисник",
-    "reassignedits-updatelog-title": "Понови го корисничкото име во дневничките наслови",
-    "reassignedits-updatelog-user": "Поднови го извршниот корисник во дневниците",
-    "right-reassignedits": "Префрлање на уредувања од стар на нов корисник"
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"reassignedits": "Префрлање на кориснички уредувања",
+	"reassignedits-desc": "Овозможува префрлање на уредувања од стар на нов корисник",
+	"reassignedits-error-invalid": "Корисничкото име „<nowiki>$1</nowiki>“ не е важечко.",
+	"reassignedits-new": "Ново корисничко име",
+	"reassignedits-old": "Старо корисничко име",
+	"reassignedits-submit": "Поднеси",
+	"reassignedits-success": "Уредувањата на „<nowiki>$1</nowiki>“ сега му се припишани на корисникот „<nowiki>$2</nowiki>“.",
+	"reassignedits-summary": "Префрлање на уредувања од стар на нов корисник",
+	"reassignedits-updatelog-title": "Понови го корисничкото име во дневничките наслови",
+	"reassignedits-updatelog-user": "Поднови го извршниот корисник во дневниците",
+	"right-reassignedits": "Префрлање на уредувања од стар на нов корисник"
 }

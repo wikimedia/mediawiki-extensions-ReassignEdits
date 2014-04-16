@@ -1,19 +1,19 @@
 {
-    "@metadata": {
-        "authors": [
-            "Borichèt",
-            "Dragonòt"
-        ]
-    },
-    "reassignedits": "Atribuì torna le modìfiche dl'utent",
-    "reassignedits-desc": "A përmëtt l'atribussion ëd le modìfiche da n'utent vej a un neuv",
-    "reassignedits-error-invalid": "Lë stranòm \"<nowiki>$1</nowiki>\" a l'é nen bon",
-    "reassignedits-new": "Stranòm neuv",
-    "reassignedits-old": "Stranòm vej",
-    "reassignedits-submit": "Spediss",
-    "reassignedits-success": "Le modìfiche ëd «<nowiki>$1</nowiki>» a son ëstàite atribuìe a «<nowiki>$2</nowiki>».",
-    "reassignedits-summary": "Cangé l'atribussion ëd le modìfiche da n'utent vej a un neuv.",
-    "reassignedits-updatelog-title": "Agiorné lë stranòm ant ij tìtoj dij registr",
-    "reassignedits-updatelog-user": "Agiorna l'utent ch'a l'ha travajà ant ij registr",
-    "right-reassignedits": "Cangé l'atribussion ëd le modìfiche da n'utent vej a un neuv"
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Dragonòt"
+		]
+	},
+	"reassignedits": "Atribuì torna le modìfiche dl'utent",
+	"reassignedits-desc": "A përmëtt l'atribussion ëd le modìfiche da n'utent vej a un neuv",
+	"reassignedits-error-invalid": "Lë stranòm \"<nowiki>$1</nowiki>\" a l'é nen bon",
+	"reassignedits-new": "Stranòm neuv",
+	"reassignedits-old": "Stranòm vej",
+	"reassignedits-submit": "Spediss",
+	"reassignedits-success": "Le modìfiche ëd «<nowiki>$1</nowiki>» a son ëstàite atribuìe a «<nowiki>$2</nowiki>».",
+	"reassignedits-summary": "Cangé l'atribussion ëd le modìfiche da n'utent vej a un neuv.",
+	"reassignedits-updatelog-title": "Agiorné lë stranòm ant ij tìtoj dij registr",
+	"reassignedits-updatelog-user": "Agiorna l'utent ch'a l'ha travajà ant ij registr",
+	"right-reassignedits": "Cangé l'atribussion ëd le modìfiche da n'utent vej a un neuv"
 }
