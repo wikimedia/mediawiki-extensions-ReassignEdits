@@ -63,7 +63,7 @@ class SpecialReassignEdits extends SpecialPage {
 		$out->addHTML(
 			Xml::openElement( 'form', array(
 				'method' => 'post',
-				'action' => $this->getTitle()->getLocalUrl(),
+				'action' => $this->getPageTitle()->getLocalUrl(),
 				'id' => 'reassignedits'
 			) ) .
 				Xml::openElement( 'fieldset' ) .
