@@ -40,6 +40,11 @@ $specialPageAliases['diq'] = array(
 	'ReassignEdits' => array( 'TehsisanVırnayış', 'TehsisanéKarberiVurnayış' ),
 );
 
+/** Hebrew (עברית) */
+$specialPageAliases['he'] = array(
+	'ReassignEdits' => array( 'שיוך_עריכות' ),
+);
+
 /** Italian (italiano) */
 $specialPageAliases['it'] = array(
 	'ReassignEdits' => array( 'RiassegnaContributi' ),
