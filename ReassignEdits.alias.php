@@ -87,5 +87,5 @@ $specialPageAliases['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
-	'ReassignEdits' => array( '再整合編輯' ),
+	'ReassignEdits' => array( '再整合編輯', '再整合使用者編輯' ),
 );
