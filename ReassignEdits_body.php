@@ -191,7 +191,7 @@ class ReassignEditsSQL {
 	 * @var string
 	 * @access private
 	 */
-	var $old;
+	public $old;
 
 	/**
 	 * The new username
@@ -199,12 +199,12 @@ class ReassignEditsSQL {
 	 * @var string
 	 * @access private
 	 */
-	var $new;
+	public $new;
 
 	/**
 	 * @var array of settings.
 	 */
-	var $settings;
+	public $settings;
 
 	/**
 	 * Constructor
