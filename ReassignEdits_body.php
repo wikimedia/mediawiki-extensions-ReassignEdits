@@ -133,14 +133,16 @@ class SpecialReassignEdits extends SpecialPage {
 		} elseif ( !is_object( $oldusername ) ) {
 			$out->addWikiText(
 				"<div class=\"errorbox\">"
-					. $this->msg( 'reassignedits-error-invalid', $request->getText( 'oldusername' ) )->text()
+					. $this->msg( 'reassignedits-error-invalid',
+						"<nowiki>" . $request->getText( 'oldusername' ) . "</nowiki>" )->text()
 					. "</div>"
 			);
 			return;
 		} elseif ( !is_object( $newusername ) ) {
 			$out->addWikiText(
 				"<div class=\"errorbox\">"
-					. $this->msg( 'reassignedits-error-invalid', $request->getText( 'newusername' ) )->text()
+					. $this->msg( 'reassignedits-error-invalid',
+						"<nowiki>" . $request->getText( 'newusername' ) . "</nowiki>" )->text()
 					. "</div>"
 			);
 			return;
@@ -152,12 +154,12 @@ class SpecialReassignEdits extends SpecialPage {
 		// It won't be an object if for instance "|" is supplied as a value
 		if ( !is_string( $oldusername->getText() ) ) {
 			$out->addWikiText( "<div class=\"errorbox\">" . $this->msg( 'reassignedits-error-invalid',
-				$oldusername->getText() )->text() . "</div>" );
+				"<nowiki>" . $oldusername->getText() . "</nowiki>" )->text() . "</div>" );
 			return;
 		}
 		if ( !is_object( $newuser ) ) {
 			$out->addWikiText( "<div class=\"errorbox\">" . $this->msg( 'reassignedits-error-invalid',
-				$newusername->getText() )->text() . "</div>" );
+				"<nowiki>" . $newusername->getText() . "</nowiki>" )->text() . "</div>" );
 			return;
 		}
 
@@ -179,7 +181,7 @@ class SpecialReassignEdits extends SpecialPage {
 
 		// Output success message
 		$out->addWikiText( "<div class=\"successbox\">" . $this->msg( 'reassignedits-success',
-			$oldusername->getText(), $newusername->getText() )->text() .
+			"<nowiki>" . $oldusername->getText() . "</nowiki>", "<nowiki>" . $newusername->getText() . "</nowiki>" )->text() .
 			"</div><br style=\"clear:both\" />" );
 	}
 }
