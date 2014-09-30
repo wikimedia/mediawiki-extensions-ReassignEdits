@@ -5,6 +5,7 @@
 			"Liuxinyu970226"
 		]
 	},
+	"reassignedits-error-invalid": "使用者名稱 \"$1\" 無效。",
 	"reassignedits-new": "新用戶名",
 	"reassignedits-old": "舊用戶名",
 	"reassignedits-submit": "提交",

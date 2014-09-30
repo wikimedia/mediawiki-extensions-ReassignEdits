@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Michawiki"
+			"Michawiki",
+			"Mikławš"
 		]
 	},
 	"reassignedits": "Wužiwarske změny přenjesć",
@@ -10,7 +11,7 @@
 	"reassignedits-new": "Nowe wužiwarske mjeno",
 	"reassignedits-old": "Stare wužiwarske mjeno",
 	"reassignedits-submit": "Wotpósłać",
-	"reassignedits-success": "Změny wužiwarja \"$1\" su so wužiwarjej \"$2\" připokazali.",
+	"reassignedits-success": "Wobdźěłanja wužiwarja \"$1\" su so wužiwarjej \"$2\" přirjadowali.",
 	"reassignedits-summary": "Změny wot stareho wužiwarja k nowemu wužiwarjej přenjesć",
 	"reassignedits-updatelog-title": "Wužiwarske mjeno w protokolowych zapiskach aktualizować",
 	"reassignedits-updatelog-user": "Wužiwarske mjeno wuwjedźomneho wužiwarja w protokolach aktualizować",

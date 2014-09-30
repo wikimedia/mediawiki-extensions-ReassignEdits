@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Darellur"
+		]
+	},
+	"reassignedits-error-invalid": "Nazwa użytkownika \"$1\" jest nieprawidłowa.",
+	"reassignedits-success": "Zmiany stworzone przez \" $1 \"zostały przypisane do\" $2 \"."
+}
