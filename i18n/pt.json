@@ -4,10 +4,13 @@
 			"Hamilton Abreu",
 			"Luckas",
 			"Luckas Blade",
-			"SandroHc"
+			"SandroHc",
+			"Vitorvicentevalente"
 		]
 	},
+	"reassignedits-error-invalid": "O nome de utilizador(a) \"$1\" é inválido.",
 	"reassignedits-new": "Novo nome de utilizador",
 	"reassignedits-old": "Anterior nome de utilizador",
-	"reassignedits-submit": "Enviar"
+	"reassignedits-submit": "Enviar",
+	"reassignedits-success": "As edições de \"$1\" foram transferidas para a conta \"$2\"."
 }
