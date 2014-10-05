@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2"
+		]
+	},
+	"reassignedits-error-invalid": "שם המשתמש \"$1\" אינו חוקי.",
+	"reassignedits-success": "העריכות של \"$1\" הועברו ל־\"$2\"."
+}

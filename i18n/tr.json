@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Suelnur"
+			"Suelnur",
+			"Violetanka"
 		]
 	},
+	"reassignedits-error-invalid": "\"$1\" kullanıcı adı geçersiz.",
 	"reassignedits-new": "Yeni kullanıcı adı",
-	"reassignedits-old": "Eski kullanıcı adı"
+	"reassignedits-old": "Eski kullanıcı adı",
+	"reassignedits-success": "\"$1\" tarafından yapılan düzenlemeler \"$2\"'ye aktarılmıştır."
 }
