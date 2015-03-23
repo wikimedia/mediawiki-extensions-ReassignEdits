@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"SVG",
-			"Shirayuki"
+			"Shirayuki",
+			"Umherirrender"
 		]
 	},
 	"reassignedits": "{{doc-special|ReassignEdits}}",
-	"reassignedits-desc": "{{desc|name=Reassign Edits|url=http://www.mediawiki.org/wiki/Extension:ReassignEdits}}",
+	"reassignedits-desc": "{{desc|name=Reassign Edits|url=https://www.mediawiki.org/wiki/Extension:ReassignEdits}}",
 	"reassignedits-error-invalid": "Error message which will be shown if given user name is invalid. Parameters:\n* $1 - the old or new username",
 	"reassignedits-new": "{{msg-mw|reassignedits-new}}",
 	"reassignedits-old": "{{msg-mw|reassignedits-old}}",
