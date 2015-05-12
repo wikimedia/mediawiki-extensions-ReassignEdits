@@ -25,7 +25,7 @@ $specialPageAliases['ar'] = array(
 	'ReassignEdits' => array( 'إعادة_ارتباط_التعديلات' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'ReassignEdits' => array( 'عمل_ربط_للتعديلات' ),
 );
