@@ -184,6 +184,10 @@ class SpecialReassignEdits extends SpecialPage {
 			"<nowiki>" . $oldusername->getText() . "</nowiki>", "<nowiki>" . $newusername->getText() . "</nowiki>" )->text() .
 			"</div><br style=\"clear:both\" />" );
 	}
+
+	protected function getGroupName() {
+		return 'users';
+	}
 }
 
 class ReassignEditsSQL {
