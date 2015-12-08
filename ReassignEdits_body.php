@@ -230,10 +230,8 @@ class ReassignEditsSQL {
 	 * Do the reassign operation
 	 */
 	function reassign() {
-		wfProfileIn( __METHOD__ );
-
 		$dbw = wfGetDB( DB_MASTER );
-		$dbw->begin();
+		$dbw->startAtomic( __METHOD__ );
 
 		$newname = $this->new;
 		$newid = User::idFromName( $this->new );
@@ -270,9 +268,8 @@ class ReassignEditsSQL {
 			__METHOD__ );
 
 		// Commit the transaction
-		$dbw->commit();
+		$dbw->endAtomic( __METHOD__ );
 
-		wfProfileOut( __METHOD__ );
 		return true;
 	}
 }
