@@ -17,6 +17,10 @@ class SpecialReassignEdits extends SpecialPage {
 		parent::__construct( 'ReassignEdits', 'reassignedits' );
 	}
 
+	public function doesWrites() {
+		return true;
+	}
+
 	/**
 	 * Show the special page
 	 *
