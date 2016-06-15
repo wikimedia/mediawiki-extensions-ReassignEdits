@@ -1,10 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nedergard"
+			"Nedergard",
+			"01miki10"
 		]
 	},
+	"reassignedits": "Siirrä käyttäjien muokkauksia",
+	"reassignedits-desc": "Mahdollistaa muokkausten siirtämisen vanhalta käyttäjältä uudelle",
 	"reassignedits-error-invalid": "Käyttäjätunnus \"<nowiki> $1 </nowiki>\" on virheellinen.",
 	"reassignedits-new": "Uusi käyttäjätunnus",
-	"reassignedits-old": "Vanha käyttäjätunnus"
+	"reassignedits-old": "Vanha käyttäjätunnus",
+	"reassignedits-submit": "Lähetä",
+	"reassignedits-success": "Käyttäjän \"$1\" muokkaukset siirrettiin käyttäjälle \"$2\".",
+	"reassignedits-summary": "Siirrä muokkaukset vanhalta käyttäjältä uudelle.",
+	"reassignedits-updatelog-title": "Päivitä käyttäjänimi lokien otsikoissa",
+	"reassignedits-updatelog-user": "Päivitä suorittanut käyttäjä lokeissa",
+	"right-reassignedits": "Siirtää muokkaukset vanhalta käyttäjältä uudelle"
 }
