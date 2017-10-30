@@ -31,7 +31,6 @@ $wgGroupPermissions['bureaucrat']['reassignedits'] = true;
 // Internationalization files
 $dir = __DIR__ . '/';
 $wgMessagesDirs['ReassignEdits'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['ReassignEdits'] = $dir . 'ReassignEdits.i18n.php';
 $wgExtensionMessagesFiles['ReassignEditsAliases'] = $dir . 'ReassignEdits.alias.php';
 
 // Special page classes
