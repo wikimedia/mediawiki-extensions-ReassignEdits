@@ -6,7 +6,9 @@
 			"Eduardo Addad de Oliveira"
 		]
 	},
+	"reassignedits": "Transferir as edições de um usuário",
 	"reassignedits-desc": "Permite reatribuir edições de um usuário antigo para um novo",
+	"reassignedits-error-invalid": "O nome de usuário \"$1\" é inválido.",
 	"reassignedits-new": "Novo nome de usuário",
 	"reassignedits-old": "Nome de usuário antigo",
 	"reassignedits-submit": "Enviar",
