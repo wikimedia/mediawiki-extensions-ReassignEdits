@@ -12,5 +12,9 @@
 	"reassignedits-new": "Novo nome de usuário",
 	"reassignedits-old": "Nome de usuário antigo",
 	"reassignedits-submit": "Enviar",
-	"reassignedits-success": "As edições de \"$1\" foram transferidas para \"$2\"."
+	"reassignedits-success": "As edições de \"$1\" foram transferidas para \"$2\".",
+	"reassignedits-summary": "Transferir edições de um usuário antigo para um novo.",
+	"reassignedits-updatelog-title": "Atualizar o nome de usuário nos títulos dos registos",
+	"reassignedits-updatelog-user": "Atualize o desempenho do usuário nos registos",
+	"right-reassignedits": "Transferir edições de um usuário antigo para um novo"
 }
