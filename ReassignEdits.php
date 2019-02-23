@@ -12,28 +12,17 @@
 *
 */
 
-$wgExtensionCredits['specialpage'][] = array(
-	'path'           => __FILE__,
-	'name'           => 'ReassignEdits',
-	'author'         => array( 'Tim Weyer' ),
-	'url'            => 'https://www.mediawiki.org/wiki/Extension:ReassignEdits',
-	'descriptionmsg' => 'reassignedits-desc',
-	'version'        => '0.3.0',
-);
-
-// Add permission required to use Special:ReassignEdits
-$wgAvailableRights[] = 'reassignedits';
-
-// Allow bureaucrats by default to access Special:ReassignEdits
-// needed if extension has been added by extensions selection at installation menu or by a management system
-$wgGroupPermissions['bureaucrat']['reassignedits'] = true;
-
-// Internationalization files
-$dir = __DIR__ . '/';
-$wgMessagesDirs['ReassignEdits'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['ReassignEditsAliases'] = $dir . 'ReassignEdits.alias.php';
-
-// Special page classes
-$wgAutoloadClasses['SpecialReassignEdits'] = $dir . 'ReassignEdits_body.php';
-$wgAutoloadClasses['ReassignEditsSQL'] = $dir . 'ReassignEdits_body.php';
-$wgSpecialPages['ReassignEdits'] = 'SpecialReassignEdits';
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'ReassignEdits' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['ReassignEdits'] = __DIR__ . '/i18n';
+	$wgExtensionMessagesFiles['ReassignEditsAliases'] = __DIR__ . '/ReassignEdits.alias.php';
+	wfWarn(
+		'Deprecated PHP entry point used for the ReassignEdits extension. ' .
+		'Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	);
+	return;
+} else {
+	die( 'This version of the ReassignEdits extension requires MediaWiki 1.29+' );
+}
