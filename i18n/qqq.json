@@ -16,5 +16,6 @@
 	"reassignedits-summary": "Short summary on Special:ReassignEdits how-to-use this extensions",
 	"reassignedits-updatelog-title": "Checkbox: {{msg-mw|reassignedits-updatelog-title}}",
 	"reassignedits-updatelog-user": "Checkbox: {{msg-mw|reassignedits-updatelog-user}}",
+	"action-reassignedits": "{{doc-action|reassignedits}}",
 	"right-reassignedits": "{{doc-right|reassignedits}}"
 }
