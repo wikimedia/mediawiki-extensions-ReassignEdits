@@ -17,5 +17,6 @@
 	"reassignedits-summary": "從舊有使用者至新的使用者來重新分配編輯內容。",
 	"reassignedits-updatelog-title": "在日誌標題來更新使用者名稱",
 	"reassignedits-updatelog-user": "在日誌來更新執行的使用者",
+	"action-reassignedits": "從舊有使用者至新的使用者來重新分配編輯內容",
 	"right-reassignedits": "從舊有使用者至新的使用者來重新分配編輯內容"
 }

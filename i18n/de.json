@@ -16,5 +16,6 @@
 	"reassignedits-summary": "Übertrage Bearbeitungen von einem alten Benutzer einem neuen Benutzer.",
 	"reassignedits-updatelog-title": "Erneuere den Benutzernamen in Logbucheinträgen",
 	"reassignedits-updatelog-user": "Ändere den Benutzernamen des ausführenden Benutzers in den Logbüchern",
+	"action-reassignedits": "Bearbeitungen eines alten Benutzers zu einem neuen Benutzer zu übertragen",
 	"right-reassignedits": "Übertragen von Bearbeitungen eines alten Benutzers zu einem neuen Benutzer"
 }
