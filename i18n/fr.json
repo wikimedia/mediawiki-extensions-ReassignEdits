@@ -15,5 +15,6 @@
 	"reassignedits-summary": "Réaffecter les modifications d'un ancien utilisateur à un nouveau.",
 	"reassignedits-updatelog-title": "Mettre à jour le nom d'utilisateur dans les titres des journaux",
 	"reassignedits-updatelog-user": "Mettre à jour l'utilisateur d'exécution dans les journaux",
+	"action-reassignedits": "réaffecter les modifications d’un ancien utilisateur vers un nouveau",
 	"right-reassignedits": "Réaffecter les modifications d'un ancien utilisateur à un nouveau"
 }
