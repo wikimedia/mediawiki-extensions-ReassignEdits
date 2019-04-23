@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Jim-by",
-			"Wizardist"
+			"Wizardist",
+			"Red Winged Duck"
 		]
 	},
 	"reassignedits": "Пераназначэньне аўтараў рэдагаваньняў",
@@ -15,5 +16,6 @@
 	"reassignedits-summary": "Пераназначэньне рэдагаваньняў ад старога ўдзельніка новаму.",
 	"reassignedits-updatelog-title": "Абнавіць імя ўдзельніка ў назвах журналаў",
 	"reassignedits-updatelog-user": "Абнавіць выканальніка зьменаў у журналах",
+	"action-reassignedits": "перапрызначэньне правак з старога ўдзельніка на новага",
 	"right-reassignedits": "Пераназначэньне рэдагаваньняў ад старога ўдзельніка новаму"
 }
