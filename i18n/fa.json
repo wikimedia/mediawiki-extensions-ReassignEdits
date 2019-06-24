@@ -3,7 +3,8 @@
 		"authors": [
 			"Armin1392",
 			"Mjbmr",
-			"Alirezaaa"
+			"Alirezaaa",
+			"FarsiNevis"
 		]
 	},
 	"reassignedits": "دوباره گماشتن ویرایش‌های کاربر",
@@ -14,7 +15,7 @@
 	"reassignedits-submit": "ثبت",
 	"reassignedits-success": "ویرایش‌ها توسط \"$1\" به \"$2\" دوباره گماشته شد.",
 	"reassignedits-summary": "دوباره گماشتن ویرایش‌ها از یک کاربر قدیمی به یک کاربر تازه.",
-	"reassignedits-updatelog-title": "به روز رسانی نام کاربری در عناوین ورود",
-	"reassignedits-updatelog-user": "به روز رسانی اجرای کاربر در ورودها",
+	"reassignedits-updatelog-title": "روزآمدسازی نام کاربری در عنوان سیاهه‌ها",
+	"reassignedits-updatelog-user": "روزآمدسازی کاربر اجراکننده در سیاهه‌ها",
 	"right-reassignedits": "دوباره گماشتن ویرایش‌ها از یک کاربر قدیمی به یک کاربر جدید."
 }
