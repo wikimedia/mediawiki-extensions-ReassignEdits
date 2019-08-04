@@ -130,11 +130,11 @@ class SpecialReassignEdits extends SpecialPage {
 			// They probably haven't even submitted the form, so don't go further
 			return;
 		} elseif ( !$request->wasPosted() || !$user->matchEditToken( $request->getVal( 'token' ) ) ) {
-			$out->addWikiText( "<div class=\"errorbox\">" .
+			$this->outputWikiText( "<div class=\"errorbox\">" .
 				$this->msg( 'reassignedits-error-request' )->text() . "</div>" );
 			return;
 		} elseif ( !is_object( $oldusername ) ) {
-			$out->addWikiText(
+			$this->outputWikiText(
 				"<div class=\"errorbox\">"
 					. $this->msg( 'reassignedits-error-invalid',
 						"<nowiki>" . $request->getText( 'oldusername' ) . "</nowiki>" )->text()
@@ -142,7 +142,7 @@ class SpecialReassignEdits extends SpecialPage {
 			);
 			return;
 		} elseif ( !is_object( $newusername ) ) {
-			$out->addWikiText(
+			$this->outputWikiText(
 				"<div class=\"errorbox\">"
 					. $this->msg( 'reassignedits-error-invalid',
 						"<nowiki>" . $request->getText( 'newusername' ) . "</nowiki>" )->text()
@@ -156,12 +156,12 @@ class SpecialReassignEdits extends SpecialPage {
 
 		// It won't be an object if for instance "|" is supplied as a value
 		if ( !is_string( $oldusername->getText() ) ) {
-			$out->addWikiText( "<div class=\"errorbox\">" . $this->msg( 'reassignedits-error-invalid',
+			$this->outputWikiText( "<div class=\"errorbox\">" . $this->msg( 'reassignedits-error-invalid',
 				"<nowiki>" . $oldusername->getText() . "</nowiki>" )->text() . "</div>" );
 			return;
 		}
 		if ( !is_object( $newuser ) ) {
-			$out->addWikiText( "<div class=\"errorbox\">" . $this->msg( 'reassignedits-error-invalid',
+			$this->outputWikiText( "<div class=\"errorbox\">" . $this->msg( 'reassignedits-error-invalid',
 				"<nowiki>" . $newusername->getText() . "</nowiki>" )->text() . "</div>" );
 			return;
 		}
@@ -183,9 +183,19 @@ class SpecialReassignEdits extends SpecialPage {
 		}
 
 		// Output success message
-		$out->addWikiText( "<div class=\"successbox\">" . $this->msg( 'reassignedits-success',
+		$this->outputWikiText( "<div class=\"successbox\">" . $this->msg( 'reassignedits-success',
 			"<nowiki>" . $oldusername->getText() . "</nowiki>", "<nowiki>" . $newusername->getText() . "</nowiki>" )->text() .
 			"</div><br style=\"clear:both\" />" );
+	}
+
+	private function outputWikiText( $wikitext ) {
+		$output = $this->getOutput();
+		if ( method_exists( $output, 'addWikiTextAsInterface' ) ) {
+			// MW 1.32+
+			$output->addWikiTextAsInterface( $wikitext );
+		} else {
+			$output->addWikiText( $wikitext );
+		}
 	}
 
 	protected function getGroupName() {
