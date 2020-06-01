@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Diman Russkov",
 			"Ole Yves",
 			"Stjn",
 			"Striking Blue"
@@ -16,5 +17,6 @@
 	"reassignedits-summary": "Переназначить правки со старого участника к новому.",
 	"reassignedits-updatelog-title": "Обновить имя участника в записях журналов",
 	"reassignedits-updatelog-user": "Обновить участника-исполнителя в журналах",
+	"action-reassignedits": "переназначить правки от старого пользователя новому",
 	"right-reassignedits": "Переназначить правки со старого участника к новому"
 }
