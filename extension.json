@@ -30,8 +30,8 @@
 		"ReassignEditsAliases": "ReassignEdits.alias.php"
 	},
 	"AutoloadClasses": {
-		"SpecialReassignEdits": "ReassignEdits_body.php",
-		"ReassignEditsSQL": "ReassignEdits_body.php"
+		"SpecialReassignEdits": "includes/specials/SpecialReassignEdits.php",
+		"ReassignEditsSQL": "includes/ReassignEditsSQL.php"
 	},
 	"manifest_version": 2
 }
