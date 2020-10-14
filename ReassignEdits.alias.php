@@ -1,90 +1,89 @@
 <?php
 /**
-* Aliases file for ReassignEdits extension
-*
-* @package MediaWiki
-* @subpackage Extensions
-*
-* @author: Tim 'SVG' Weyer <SVG@Wikiunity.com>
-*
-* @copyright Copyright (C) 2011 Tim Weyer, Wikiunity
-* @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
-*
-*/
+ * Aliases file for ReassignEdits extension
+ *
+ * @package MediaWiki
+ * @subpackage Extensions
+ *
+ * @author: Tim 'SVG' Weyer <SVG@Wikiunity.com>
+ *
+ * @copyright Copyright (C) 2011 Tim Weyer, Wikiunity
+ * @license GPL-2.0-or-later
+ */
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English (English) */
-$specialPageAliases['en'] = array(
-	'ReassignEdits' => array( 'ReassignEdits', 'ReassignUserEdits' ),
-);
+$specialPageAliases['en'] = [
+	'ReassignEdits' => [ 'ReassignEdits', 'ReassignUserEdits' ],
+];
 
 /** Arabic (العربية) */
-$specialPageAliases['ar'] = array(
-	'ReassignEdits' => array( 'إعادة_ارتباط_التعديلات' ),
-);
+$specialPageAliases['ar'] = [
+	'ReassignEdits' => [ 'إعادة_ارتباط_التعديلات' ],
+];
 
 /** Egyptian Arabic (مصرى) */
-$specialPageAliases['arz'] = array(
-	'ReassignEdits' => array( 'عمل_ربط_للتعديلات' ),
-);
+$specialPageAliases['arz'] = [
+	'ReassignEdits' => [ 'عمل_ربط_للتعديلات' ],
+];
 
 /** German (Deutsch) */
-$specialPageAliases['de'] = array(
-	'ReassignEdits' => array( 'Bearbeitungen_übertragen', 'Benutzerbearbeitungen_übertragen' ),
-);
+$specialPageAliases['de'] = [
+	'ReassignEdits' => [ 'Bearbeitungen_übertragen', 'Benutzerbearbeitungen_übertragen' ],
+];
 
 /** Zazaki (Zazaki) */
-$specialPageAliases['diq'] = array(
-	'ReassignEdits' => array( 'TehsisanVırnayış', 'TehsisanéKarberiVurnayış' ),
-);
+$specialPageAliases['diq'] = [
+	'ReassignEdits' => [ 'TehsisanVırnayış', 'TehsisanéKarberiVurnayış' ],
+];
 
 /** Hebrew (עברית) */
-$specialPageAliases['he'] = array(
-	'ReassignEdits' => array( 'שיוך_עריכות' ),
-);
+$specialPageAliases['he'] = [
+	'ReassignEdits' => [ 'שיוך_עריכות' ],
+];
 
 /** Italian (italiano) */
-$specialPageAliases['it'] = array(
-	'ReassignEdits' => array( 'RiassegnaContributi' ),
-);
+$specialPageAliases['it'] = [
+	'ReassignEdits' => [ 'RiassegnaContributi' ],
+];
 
 /** Japanese (日本語) */
-$specialPageAliases['ja'] = array(
-	'ReassignEdits' => array( '編集再割り当て' ),
-);
+$specialPageAliases['ja'] = [
+	'ReassignEdits' => [ '編集再割り当て' ],
+];
 
 /** Korean (한국어) */
-$specialPageAliases['ko'] = array(
-	'ReassignEdits' => array( '편집재할당', '사용자편집재할당' ),
-);
+$specialPageAliases['ko'] = [
+	'ReassignEdits' => [ '편집재할당', '사용자편집재할당' ],
+];
 
 /** Luxembourgish (Lëtzebuergesch) */
-$specialPageAliases['lb'] = array(
-	'ReassignEdits' => array( 'Benotzerännerungen_iwwerdroen' ),
-);
+$specialPageAliases['lb'] = [
+	'ReassignEdits' => [ 'Benotzerännerungen_iwwerdroen' ],
+];
 
 /** Macedonian (македонски) */
-$specialPageAliases['mk'] = array(
-	'ReassignEdits' => array( 'ПреприпишувањеНаУредувања' ),
-);
+$specialPageAliases['mk'] = [
+	'ReassignEdits' => [ 'ПреприпишувањеНаУредувања' ],
+];
 
 /** Dutch (Nederlands) */
-$specialPageAliases['nl'] = array(
-	'ReassignEdits' => array( 'BewerkingenToewijzen' ),
-);
+$specialPageAliases['nl'] = [
+	'ReassignEdits' => [ 'BewerkingenToewijzen' ],
+];
 
 /** Sicilian (sicilianu) */
-$specialPageAliases['scn'] = array(
-	'ReassignEdits' => array( 'RiassegnaContributi' ),
-);
+$specialPageAliases['scn'] = [
+	'ReassignEdits' => [ 'RiassegnaContributi' ],
+];
 
 /** Simplified Chinese (中文（简体）‎) */
-$specialPageAliases['zh-hans'] = array(
-	'ReassignEdits' => array( '再分配用户编辑' ),
-);
+$specialPageAliases['zh-hans'] = [
+	'ReassignEdits' => [ '再分配用户编辑' ],
+];
 
 /** Traditional Chinese (中文（繁體）‎) */
-$specialPageAliases['zh-hant'] = array(
-	'ReassignEdits' => array( '再整合編輯', '再整合使用者編輯' ),
-);
+$specialPageAliases['zh-hant'] = [
+	'ReassignEdits' => [ '再整合編輯', '再整合使用者編輯' ],
+];

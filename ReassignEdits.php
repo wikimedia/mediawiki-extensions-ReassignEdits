@@ -1,16 +1,15 @@
 <?php
 /**
-* ReassignEdits
-*
-* @package MediaWiki
-* @subpackage Extensions
-*
-* @author: Tim 'SVG' Weyer <SVG@Wikiunity.com>
-*
-* @copyright Copyright (C) 2011 Tim Weyer, Wikiunity
-* @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
-*
-*/
+ * ReassignEdits
+ *
+ * @package MediaWiki
+ * @subpackage Extensions
+ *
+ * @author: Tim 'SVG' Weyer <SVG@Wikiunity.com>
+ *
+ * @copyright Copyright (C) 2011 Tim Weyer, Wikiunity
+ * @license GPL-2.0-or-later
+ */
 
 if ( function_exists( 'wfLoadExtension' ) ) {
 	wfLoadExtension( 'ReassignEdits' );

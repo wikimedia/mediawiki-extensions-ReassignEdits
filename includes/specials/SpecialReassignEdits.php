@@ -8,8 +8,7 @@
  * @author: Tim 'SVG' Weyer <SVG@Wikiunity.com>
  *
  * @copyright Copyright (C) 2011 Tim Weyer, Wikiunity
- * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
- *
+ * @license GPL-2.0-or-later
  */
 
 class SpecialReassignEdits extends SpecialPage {
@@ -62,20 +61,20 @@ class SpecialReassignEdits extends SpecialPage {
 		$updatelogging_title = $request->getCheck( 'updateloggingtitle' );
 
 		$out->addHTML(
-			Xml::openElement( 'form', array(
+			Xml::openElement( 'form', [
 				'method' => 'post',
 				'action' => $this->getPageTitle()->getLocalUrl(),
 				'id' => 'reassignedits'
-			) ) .
+			] ) .
 				Xml::openElement( 'fieldset' ) .
 				Xml::element( 'legend', null, $this->msg( 'reassignedits' )->text() ) .
-				Xml::openElement( 'table', array( 'id' => 'mw-reassignedits-table' ) ) .
+				Xml::openElement( 'table', [ 'id' => 'mw-reassignedits-table' ] ) .
 				"<tr>
 				<td class='mw-label'>" .
 				Xml::label( $this->msg( 'reassignedits-old' )->text(), 'oldusername' ) .
 				"</td>
 				<td class='mw-input'>" .
-				Xml::input( 'oldusername', 20, $oun, array( 'type' => 'text', 'tabindex' => '1' ) ) . ' ' .
+				Xml::input( 'oldusername', 20, $oun, [ 'type' => 'text', 'tabindex' => '1' ] ) . ' ' .
 				"</td>
 			</tr>
 			<tr>
@@ -83,7 +82,7 @@ class SpecialReassignEdits extends SpecialPage {
 				Xml::label( $this->msg( 'reassignedits-new' )->text(), 'newusername' ) .
 				"</td>
 				<td class='mw-input'>" .
-				Xml::input( 'newusername', 20, $nun, array( 'type' => 'text', 'tabindex' => '2' ) ) .
+				Xml::input( 'newusername', 20, $nun, [ 'type' => 'text', 'tabindex' => '2' ] ) .
 				"</td>
 			</tr>"
 		);
@@ -94,7 +93,7 @@ class SpecialReassignEdits extends SpecialPage {
 				<td class='mw-input'>" .
 				Xml::checkLabel( $this->msg( 'reassignedits-updatelog-user' )->text(),
 					'updatelogginguser', 'updatelogginguser', $updatelogging_user,
-					array( 'tabindex' => '3' ) ) .
+					[ 'tabindex' => '3' ] ) .
 				"</td>
 			</tr>"
 		);
@@ -105,7 +104,7 @@ class SpecialReassignEdits extends SpecialPage {
 				<td class='mw-input'>" .
 				Xml::checkLabel(
 					$this->msg( 'reassignedits-updatelog-title' )->text(), 'updateloggingtitle',
-					'updateloggingtitle', $updatelogging_title, array( 'tabindex' => '4' ) ) .
+					'updateloggingtitle', $updatelogging_title, [ 'tabindex' => '4' ] ) .
 				"</td>
 			</tr>"
 		);
@@ -115,7 +114,7 @@ class SpecialReassignEdits extends SpecialPage {
 				</td>
 				<td class='mw-submit'>" .
 				Xml::submitButton( $this->msg( 'reassignedits-submit' )->text(),
-					array( 'name' => 'submit', 'tabindex' => '5', 'id' => 'submit' ) ) .
+					[ 'name' => 'submit', 'tabindex' => '5', 'id' => 'submit' ] ) .
 				"</td>
 			</tr>" .
 			Xml::closeElement( 'table' ) .
@@ -164,7 +163,7 @@ class SpecialReassignEdits extends SpecialPage {
 			return;
 		}
 
-		$settings = array();
+		$settings = [];
 		// Update user in logging table if checkbox is true
 		$settings['updatelogginguser'] = $request->getCheck( 'updatelogginguser' );
 		// Update title in logging table if checkbox is true
@@ -186,6 +185,9 @@ class SpecialReassignEdits extends SpecialPage {
 			"</div><br style=\"clear:both\" />" );
 	}
 
+	/**
+	 * @param string $wikitext
+	 */
 	private function outputWikiText( $wikitext ) {
 		$output = $this->getOutput();
 		if ( method_exists( $output, 'addWikiTextAsInterface' ) ) {
@@ -196,6 +198,9 @@ class SpecialReassignEdits extends SpecialPage {
 		}
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	protected function getGroupName() {
 		return 'users';
 	}

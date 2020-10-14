@@ -8,8 +8,7 @@
  * @author: Tim 'SVG' Weyer <SVG@Wikiunity.com>
  *
  * @copyright Copyright (C) 2011 Tim Weyer, Wikiunity
- * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
- *
+ * @license GPL-2.0-or-later
  */
 
 class ReassignEditsSQL {
@@ -50,6 +49,8 @@ class ReassignEditsSQL {
 
 	/**
 	 * Do the reassign operation
+	 *
+	 * @return bool
 	 */
 	function reassign() {
 		$dbw = wfGetDB( DB_MASTER );
@@ -61,14 +62,14 @@ class ReassignEditsSQL {
 
 		// Update archive table (deleted revisions)
 		$dbw->update( 'archive',
-			array( 'ar_user_text' => $newname, 'ar_user' => $newid ),
-			array( 'ar_user_text' => $oldname ),
+			[ 'ar_user_text' => $newname, 'ar_user' => $newid ],
+			[ 'ar_user_text' => $oldname ],
 			__METHOD__ );
 
 		if ( $this->settings['updatelogginguser'] ) {
 			$dbw->update( 'logging',
-				array( 'log_user_text' => $newname, 'log_user' => $newid ),
-				array( 'log_user_text' => $oldname ),
+				[ 'log_user_text' => $newname, 'log_user' => $newid ],
+				[ 'log_user_text' => $oldname ],
 				__METHOD__ );
 		}
 
@@ -76,17 +77,17 @@ class ReassignEditsSQL {
 			$oldTitle = Title::makeTitle( NS_USER, $this->old );
 			$newTitle = Title::makeTitle( NS_USER, $this->new );
 			$dbw->update( 'logging',
-				array( 'log_title' => $newTitle->getDBkey() ),
-				array( 'log_type' => array( 'block', 'rights' ),
+				[ 'log_title' => $newTitle->getDBkey() ],
+				[ 'log_type' => [ 'block', 'rights' ],
 					'log_namespace' => NS_USER,
-					'log_title' => $oldTitle->getDBkey() ),
+					'log_title' => $oldTitle->getDBkey() ],
 				__METHOD__ );
 		}
 
 		// Update revision table
 		$dbw->update( 'revision',
-			array( 'rev_user_text' => $newname, 'rev_user' => $newid ),
-			array( 'rev_user_text' => $oldname ),
+			[ 'rev_user_text' => $newname, 'rev_user' => $newid ],
+			[ 'rev_user_text' => $oldname ],
 			__METHOD__ );
 
 		// Commit the transaction
