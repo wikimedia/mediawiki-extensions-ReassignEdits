@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Banjo",
 			"Toliño"
 		]
 	},
@@ -14,5 +15,6 @@
 	"reassignedits-summary": "Reasignar as edicións dun usuario vello a outro novo.",
 	"reassignedits-updatelog-title": "Actualizar o nome de usuario nos rexistros",
 	"reassignedits-updatelog-user": "Actualizar o usuario de execución nos rexistros",
+	"action-reassignedits": "reasignar edicións dun usuario vello a outro novo",
 	"right-reassignedits": "Reasignar edicións dun usuario vello a outro novo"
 }
