@@ -11,6 +11,8 @@
  * @license GPL-2.0-or-later
  */
 
+use MediaWiki\MediaWikiServices;
+
 class SpecialReassignEdits extends SpecialPage {
 	public function __construct() {
 		parent::__construct( 'ReassignEdits', 'reassignedits' );
@@ -27,8 +29,6 @@ class SpecialReassignEdits extends SpecialPage {
 	 * @throws UserBlockedError
 	 */
 	public function execute( $par ) {
-		global $wgContLang;
-
 		$this->setHeaders();
 		$out = $this->getOutput();
 		$out->addWikiMsg( 'reassignedits-summary' );
@@ -52,7 +52,8 @@ class SpecialReassignEdits extends SpecialPage {
 		$oldnamePar = trim( str_replace( '_', ' ', $request->getText( 'oldusername', $par ) ) );
 		$oldusername = Title::makeTitle( NS_USER, $oldnamePar );
 		// Force uppercase of newusername, otherwise wikis with wgCapitalLinks=false can create lc usernames
-		$newusername = Title::makeTitleSafe( NS_USER, $wgContLang->ucfirst( $request->getText( 'newusername' ) ) );
+		$contentLanguage = MediaWikiServices::getInstance()->getContentLanguage();
+		$newusername = Title::makeTitleSafe( NS_USER, $contentLanguage->ucfirst( $request->getText( 'newusername' ) ) );
 		$oun = is_object( $oldusername ) ? $oldusername->getText() : '';
 		$nun = is_object( $newusername ) ? $newusername->getText() : '';
 		$token = $user->getEditToken();
