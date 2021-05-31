@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dj"
+			"Dj",
+			"Tacsipacsi"
 		]
 	},
 	"reassignedits": "Szerkesztések átadása",
@@ -10,7 +11,7 @@
 	"reassignedits-new": "Új szerkesztőnév",
 	"reassignedits-old": "Régi szerkesztőnév",
 	"reassignedits-submit": "Elküld",
-	"reassignedits-success": "\"$1\" szerkesztése áttéve \"$2\" szerkesztéséhez.",
+	"reassignedits-success": "„$1” szerkesztései áttéve „$2” szerkesztéseihez.",
 	"reassignedits-summary": "Régi szerkesztő szerkesztéseinek átvitel új szerkesztőhöz.",
 	"reassignedits-updatelog-title": "Felhasználó név frissítése a napló címekben",
 	"reassignedits-updatelog-user": "Végrehajtó szerkesztő frissítése a naplókban",
