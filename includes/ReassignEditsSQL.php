@@ -53,7 +53,7 @@ class ReassignEditsSQL {
 	 * @return bool
 	 */
 	function reassign() {
-		$dbw = wfGetDB( DB_MASTER );
+		$dbw = wfGetDB( DB_PRIMARY );
 		$dbw->startAtomic( __METHOD__ );
 
 		$newname = $this->new;
