@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Guycn2"
+			"Guycn2",
+			"Ex-Diktator"
 		]
 	},
 	"reassignedits-error-invalid": "שם המשתמש \"$1\" אינו חוקי.",
+	"reassignedits-submit": "שליחה",
 	"reassignedits-success": "העריכות של \"$1\" הועברו ל־\"$2\".",
 	"right-reassignedits": "הקצאה מחדש של עריכות ממשתמש אחד למשתמש אחר"
 }
