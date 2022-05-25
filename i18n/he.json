@@ -5,8 +5,16 @@
 			"Ex-Diktator"
 		]
 	},
+	"reassignedits": "לשנות שיוך של עריכות משתמש",
+	"reassignedits-desc": "אפשרות לשנות את השיוך של עריכות משם משתמש ישן לשם משתמש חדש",
 	"reassignedits-error-invalid": "שם המשתמש \"$1\" אינו חוקי.",
+	"reassignedits-new": "שם משתמש חדש",
+	"reassignedits-old": "שם משתמש ישן",
 	"reassignedits-submit": "שליחה",
 	"reassignedits-success": "העריכות של \"$1\" הועברו ל־\"$2\".",
-	"right-reassignedits": "הקצאה מחדש של עריכות ממשתמש אחד למשתמש אחר"
+	"reassignedits-summary": "שינוי השיוך של עריכות משם משתמש ישן לשם משתמש חדש.",
+	"reassignedits-updatelog-title": "עדכון שם משתמש בכותרות יומן",
+	"reassignedits-updatelog-user": "עדכון המשתמש המבצע ביומנים",
+	"action-reassignedits": "לשנות את השיוך של עריכות ממשתמש אחד למשתמש אחר",
+	"right-reassignedits": "שינוי שיוך של עריכות ממשתמש אחד למשתמש אחר"
 }
