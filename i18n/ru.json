@@ -4,12 +4,13 @@
 			"Diman Russkov",
 			"Ole Yves",
 			"Stjn",
-			"Striking Blue"
+			"Striking Blue",
+			"Pacha Tchernof"
 		]
 	},
 	"reassignedits": "Переназначить правки участника",
 	"reassignedits-desc": "Позволяет переназначение правок от старого пользователя к новому",
-	"reassignedits-error-invalid": "Имя пользователя «$1» не верно.",
+	"reassignedits-error-invalid": "Имя пользователя «$1» недействительное.",
 	"reassignedits-new": "Новое имя участника",
 	"reassignedits-old": "Старое имя участника",
 	"reassignedits-submit": "Отправить",
