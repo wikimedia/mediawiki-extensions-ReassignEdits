@@ -11,6 +11,8 @@
  * @license GPL-2.0-or-later
  */
 
+use MediaWiki\MediaWikiServices;
+
 class ReassignEditsSQL {
 	/**
 	 * The old username
@@ -57,7 +59,14 @@ class ReassignEditsSQL {
 		$dbw->startAtomic( __METHOD__ );
 
 		$newname = $this->new;
-		$newid = User::idFromName( $this->new );
+		if ( method_exists( MediaWikiServices::class, 'getUserIdentityLookup' ) ) {
+			// MW 1.36+
+			$userIdentity = MediaWikiServices::getInstance()->getUserIdentityLookup()
+				->getUserIdentityByName( $this->new );
+			$newid = $userIdentity && $userIdentity->isRegistered() ? $userIdentity->getId() : null;
+		} else {
+			$newid = User::idFromName( $this->new );
+		}
 		$oldname = $this->old;
 
 		// Update archive table (deleted revisions)
