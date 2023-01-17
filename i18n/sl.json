@@ -4,5 +4,16 @@
 			"Eleassar"
 		]
 	},
-	"reassignedits-submit": "Shrani"
+	"reassignedits": "Predodelitev uporabniških urejanj",
+	"reassignedits-desc": "Omogoča predodelitev urejanj s starega uporabnika na novega",
+	"reassignedits-error-invalid": "Uporabniško ime »$1« je neveljavno.",
+	"reassignedits-new": "Novo uporabniško ime",
+	"reassignedits-old": "Staro uporabniško ime",
+	"reassignedits-submit": "Shrani",
+	"reassignedits-success": "Urejanja »$1« so bila predodeljena »$2«.",
+	"reassignedits-summary": "Predodelitev urejanj starega uporabnika novemu.",
+	"reassignedits-updatelog-title": "Posodobi uporabniško ime v dnevniških zapisih",
+	"reassignedits-updatelog-user": "Posodobi izvajajočega uporabnika v dnevnikih",
+	"action-reassignedits": "predodelitev urejanj starega uporabnika novemu",
+	"right-reassignedits": "Predodelitev urejanj starega uporabnika novemu"
 }
