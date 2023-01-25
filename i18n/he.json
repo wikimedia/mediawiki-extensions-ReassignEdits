@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Guycn2",
-			"Ex-Diktator"
+			"Ex-Diktator",
+			"Amire80"
 		]
 	},
 	"reassignedits": "לשנות שיוך של עריכות משתמש",
 	"reassignedits-desc": "אפשרות לשנות את השיוך של עריכות משם משתמש ישן לשם משתמש חדש",
-	"reassignedits-error-invalid": "שם המשתמש \"$1\" אינו חוקי.",
+	"reassignedits-error-invalid": "שם המשתמש \"$1\" אינו תקין.",
 	"reassignedits-new": "שם משתמש חדש",
 	"reassignedits-old": "שם משתמש ישן",
 	"reassignedits-submit": "שליחה",
