@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Milicevic01"
+			"Milicevic01",
+			"BadDog"
 		]
 	},
 	"reassignedits-error-invalid": "Корисничко име „$1“ није ваљано.",
-	"reassignedits-success": "Измене „$1“ су успешно приписане „$2“."
+	"reassignedits-success": "Измене корисника „$1” приписане су кориснику „$2”."
 }
