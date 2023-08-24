@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"reassignedits": "Iš naujo priskirti naudotojo pakeitimus",
+	"reassignedits-desc": "Leidžia iš naujo priskirti keitimus iš seno naudotojo naujam",
+	"reassignedits-error-invalid": "Naudotojo vardas „$1“ neteisingas.",
+	"reassignedits-new": "Naujas naudotojo vardas",
+	"reassignedits-old": "Senas naudotojo vardas",
+	"reassignedits-submit": "Pateikti",
+	"reassignedits-success": "„$1“ pakeitimai buvo priskirti „$2“.",
+	"reassignedits-summary": "Iš naujo priskirkite keitimus iš seno naudotojo naujam.",
+	"reassignedits-updatelog-title": "Atnaujinti naudotojo vardą žurnalų pavadinimuose",
+	"action-reassignedits": "iš naujo priskirti keitimus iš seno naudotojo naujam",
+	"right-reassignedits": "Iš naujo priskirti keitimus iš seno naudotojo naujam"
+}
