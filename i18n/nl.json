@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"McDutchie",
 			"SPQRobin",
 			"Saruman",
 			"Siebrand"
@@ -16,5 +17,6 @@
 	"reassignedits-summary": "Bewerkingen aan een andere gebruiker toewijzen.",
 	"reassignedits-updatelog-title": "Gebruikersnaam bijwerkingen in logboektitels",
 	"reassignedits-updatelog-user": "Uitvoerende gebruiker in logboeken bijwerken",
+	"action-reassignedits": "de bewerkingen van een oude gebruiker toe te wijzen aan een nieuwe gebruiker",
 	"right-reassignedits": "Bewerkingen aan een andere gebruiker toewijzen"
 }
