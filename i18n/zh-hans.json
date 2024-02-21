@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Shirayuki",
-			"Yfdyh000"
+			"Yfdyh000",
+			"Anterdc99"
 		]
 	},
 	"reassignedits": "重新分配用户编辑",
@@ -15,5 +16,6 @@
 	"reassignedits-summary": "重新分配一个老用户的编辑到一个新用户。",
 	"reassignedits-updatelog-title": "更新日志标题中的用户名",
 	"reassignedits-updatelog-user": "更新日志中的执行用户",
+	"action-reassignedits": "重新分配编辑从一个老用户到一个新用户",
 	"right-reassignedits": "重新分配编辑从一个老用户到一个新用户"
 }
