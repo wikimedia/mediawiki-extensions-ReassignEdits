@@ -17,5 +17,6 @@
 	"reassignedits-summary": "Siirrä muokkaukset vanhalta käyttäjältä uudelle.",
 	"reassignedits-updatelog-title": "Päivitä käyttäjänimi lokien otsikoissa",
 	"reassignedits-updatelog-user": "Päivitä suorittanut käyttäjä lokeissa",
+	"action-reassignedits": "siirtää muokkauksia vanhalta käyttäjältä uudelle",
 	"right-reassignedits": "Siirtää muokkaukset vanhalta käyttäjältä uudelle"
 }
