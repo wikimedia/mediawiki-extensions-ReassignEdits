@@ -3,7 +3,8 @@
 		"authors": [
 			"01miki10",
 			"Nedergard",
-			"Valtlait"
+			"Valtlait",
+			"Valtlai"
 		]
 	},
 	"reassignedits": "Siirrä käyttäjien muokkauksia",
@@ -16,5 +17,6 @@
 	"reassignedits-summary": "Siirrä muokkaukset vanhalta käyttäjältä uudelle.",
 	"reassignedits-updatelog-title": "Päivitä käyttäjänimi lokien otsikoissa",
 	"reassignedits-updatelog-user": "Päivitä suorittanut käyttäjä lokeissa",
+	"action-reassignedits": "siirtää muokkauksia vanhalta käyttäjältä uudelle",
 	"right-reassignedits": "Siirtää muokkaukset vanhalta käyttäjältä uudelle"
 }
