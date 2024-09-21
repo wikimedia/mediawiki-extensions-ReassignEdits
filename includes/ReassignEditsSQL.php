@@ -55,7 +55,7 @@ class ReassignEditsSQL {
 	 * @return bool
 	 */
 	function reassign() {
-		$dbw = wfGetDB( DB_PRIMARY );
+		$dbw = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
 		$dbw->startAtomic( __METHOD__ );
 
 		$newname = $this->new;
