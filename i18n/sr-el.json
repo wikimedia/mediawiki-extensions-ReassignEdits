@@ -5,5 +5,5 @@
 		]
 	},
 	"reassignedits-error-invalid": "Korisničko ime „$1“ nije valjano.",
-	"reassignedits-success": "Izmene „$1“ su uspešno pripisane „$2“."
+	"reassignedits-success": "Izmene korisnika „$1” pripisane su korisniku „$2”."
 }
