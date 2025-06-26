@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"reassignedits": "Ännerunge vu Benotzer iwwerdroen",
 	"reassignedits-desc": "Erlaabt et fir Ännerunge vun engem ale Benotzer op en neien z'iwwerdroen",
-	"reassignedits-error-invalid": "De Benotzernumm \"$1\" ass net valabel.",
+	"reassignedits-error-invalid": "De Benotzernumm „$1“ ass ongülteg.",
 	"reassignedits-new": "Neie Benotzernumm",
 	"reassignedits-old": "Ale Benotzernumm",
 	"reassignedits-submit": "Späicheren",
