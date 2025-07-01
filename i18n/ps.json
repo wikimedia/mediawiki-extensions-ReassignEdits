@@ -1,10 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
-	"reassignedits-new": "نوی کارن-نوم",
-	"reassignedits-old": "زوړ کارن-نوم",
-	"reassignedits-submit": "سپارل"
+	"reassignedits": "د کارن سمونونو بياگومارنه",
+	"reassignedits-desc": "د يو زوړ کارن څخه نوي کارن ته د بياگومارنې اجازه ورکوي",
+	"reassignedits-error-invalid": "\"$1\" کارن نوم ناچله دی.",
+	"reassignedits-new": "نوی کارن‌نوم",
+	"reassignedits-old": "زوړ کارن‌نوم",
+	"reassignedits-submit": "سپارل",
+	"reassignedits-success": "د \"$1\" له خوا شوي سمونونو ته د \"$2\" بياگومارنه وشوه.",
+	"reassignedits-summary": "د يو زوړ کارن څخه يو نوي کارن ته د سمونونو بياگومارنه.",
+	"reassignedits-updatelog-title": "په يادښت سرليکونو کې د کارن‌نوم هم‌مهالول",
+	"reassignedits-updatelog-user": "په يادښتونو کې د ترسره کوونکي کارن هم‌مهالول",
+	"action-reassignedits": "د يو زوړ کارن څخه يو نوي کارن ته د سمونونو بياگومارنه",
+	"right-reassignedits": "د يو زوړ کارن څخه يو نوي کارن ته د سمونونو بياگومارنه"
 }
