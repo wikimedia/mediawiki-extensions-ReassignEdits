@@ -1,8 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
+			"JeffreyKim",
 			"Yueman"
 		]
 	},
-	"reassignedits-submit": "遞交"
+	"reassignedits": "重新分配用戶編輯",
+	"reassignedits-desc": "允許將舊用戶嘅編輯重新分配畀新用戶",
+	"reassignedits-error-invalid": "用戶名\"$1\"無效",
+	"reassignedits-new": "新用戶名",
+	"reassignedits-old": "舊用戶名",
+	"reassignedits-submit": "遞交",
+	"reassignedits-success": "\"$1\"嘅編輯已經重新分配畀\"$2\"。",
+	"reassignedits-summary": "將舊用戶嘅編輯內容重新分配畀新用戶。",
+	"reassignedits-updatelog-title": "更新日誌標題入面嘅用戶名",
+	"reassignedits-updatelog-user": "更新喺記錄入面執行嘅用戶",
+	"action-reassignedits": "將舊用戶嘅編輯內容重新分配畀新用戶。",
+	"right-reassignedits": "將舊用戶嘅編輯內容重新分配畀新用戶。"
 }
