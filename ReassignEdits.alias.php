@@ -78,12 +78,22 @@ $specialPageAliases['scn'] = [
 	'ReassignEdits' => [ 'RiassegnaContributi' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
-$specialPageAliases['zh-hans'] = [
-	'ReassignEdits' => [ '再分配用户编辑' ],
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'ReassignEdits' => [ 'ReassignEdits' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Simplified Chinese (中文（简体）) */
+$specialPageAliases['zh-hans'] = [
+	'ReassignEdits' => [ '重新分配编辑', '重新分配用户编辑', '再分配用户编辑' ],
+];
+
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
-	'ReassignEdits' => [ '再整合編輯', '再整合使用者編輯' ],
+	'ReassignEdits' => [ '重新分配編輯', '重新分配使用者編輯', '再整合編輯', '再整合使用者編輯' ],
+];
+
+/** Chinese (Hong Kong) (中文（香港）) */
+$specialPageAliases['zh-hk'] = [
+	'ReassignEdits' => [ '重新分配編輯', '重新分配用戶編輯' ],
 ];
