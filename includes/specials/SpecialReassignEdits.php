@@ -64,17 +64,17 @@ class SpecialReassignEdits extends SpecialPage {
 		$updatelogging_title = $request->getCheck( 'updateloggingtitle' );
 
 		$out->addHTML(
-			Xml::openElement( 'form', [
+			Html::openElement( 'form', [
 				'method' => 'post',
 				'action' => $this->getPageTitle()->getLocalUrl(),
 				'id' => 'reassignedits'
 			] ) .
-				Xml::openElement( 'fieldset' ) .
-				Xml::element( 'legend', null, $this->msg( 'reassignedits' )->text() ) .
-				Xml::openElement( 'table', [ 'id' => 'mw-reassignedits-table' ] ) .
+				Html::openElement( 'fieldset' ) .
+				Html::element( 'legend', [], $this->msg( 'reassignedits' )->text() ) .
+				Html::openElement( 'table', [ 'id' => 'mw-reassignedits-table' ] ) .
 				"<tr>
 				<td class='mw-label'>" .
-				Xml::label( $this->msg( 'reassignedits-old' )->text(), 'oldusername' ) .
+				Html::label( $this->msg( 'reassignedits-old' )->text(), 'oldusername' ) .
 				"</td>
 				<td class='mw-input'>" .
 				Html::input( 'oldusername', $oun, 'text', [ 'size' => 20, 'tabindex' => '1' ] ) . ' ' .
@@ -82,7 +82,7 @@ class SpecialReassignEdits extends SpecialPage {
 			</tr>
 			<tr>
 				<td class='mw-label'>" .
-				Xml::label( $this->msg( 'reassignedits-new' )->text(), 'newusername' ) .
+				Html::label( $this->msg( 'reassignedits-new' )->text(), 'newusername' ) .
 				"</td>
 				<td class='mw-input'>" .
 				Html::input( 'newusername', $nun, 'text', [ 'size' => 20, 'tabindex' => '2' ] ) .
@@ -118,10 +118,10 @@ class SpecialReassignEdits extends SpecialPage {
 					[ 'name' => 'submit', 'tabindex' => '5', 'id' => 'submit' ] ) .
 				"</td>
 			</tr>" .
-			Xml::closeElement( 'table' ) .
-			Xml::closeElement( 'fieldset' ) .
+			Html::closeElement( 'table' ) .
+			Html::closeElement( 'fieldset' ) .
 			Html::hidden( 'token', $token ) .
-			Xml::closeElement( 'form' ) . "\n"
+			Html::closeElement( 'form' ) . "\n"
 		);
 
 		if ( $request->getText( 'token' ) === '' ) {
