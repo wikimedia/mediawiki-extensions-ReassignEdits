@@ -75,7 +75,7 @@ class SpecialReassignEdits extends SpecialPage {
 				Xml::label( $this->msg( 'reassignedits-old' )->text(), 'oldusername' ) .
 				"</td>
 				<td class='mw-input'>" .
-				Xml::input( 'oldusername', 20, $oun, [ 'type' => 'text', 'tabindex' => '1' ] ) . ' ' .
+				Html::input( 'oldusername', $oun, 'text', [ 'size' => 20, 'tabindex' => '1' ] ) . ' ' .
 				"</td>
 			</tr>
 			<tr>
@@ -83,7 +83,7 @@ class SpecialReassignEdits extends SpecialPage {
 				Xml::label( $this->msg( 'reassignedits-new' )->text(), 'newusername' ) .
 				"</td>
 				<td class='mw-input'>" .
-				Xml::input( 'newusername', 20, $nun, [ 'type' => 'text', 'tabindex' => '2' ] ) .
+				Html::input( 'newusername', $nun, 'text', [ 'size' => 20, 'tabindex' => '2' ] ) .
 				"</td>
 			</tr>"
 		);
@@ -92,9 +92,8 @@ class SpecialReassignEdits extends SpecialPage {
 				<td>&#160;
 				</td>
 				<td class='mw-input'>" .
-				Xml::checkLabel( $this->msg( 'reassignedits-updatelog-user' )->text(),
-					'updatelogginguser', 'updatelogginguser', $updatelogging_user,
-					[ 'tabindex' => '3' ] ) .
+				Html::check( 'updatelogginguser', $updatelogging_user, [ 'id' => 'updatelogginguser', 'tabindex' => '3' ] )
+					. "\u{00A0}" . Html::label( $this->msg( 'reassignedits-updatelog-user' )->text(), 'updatelogginguser' ) .
 				"</td>
 			</tr>"
 		);
@@ -103,9 +102,8 @@ class SpecialReassignEdits extends SpecialPage {
 				<td>&#160;
 				</td>
 				<td class='mw-input'>" .
-				Xml::checkLabel(
-					$this->msg( 'reassignedits-updatelog-title' )->text(), 'updateloggingtitle',
-					'updateloggingtitle', $updatelogging_title, [ 'tabindex' => '4' ] ) .
+					Html::check( 'updateloggingtitle', $updatelogging_title, [ 'id' => 'updateloggingtitle', 'tabindex' => '4' ] )
+					. "\u{00A0}" . Html::label( $this->msg( 'reassignedits-updatelog-title' )->text(), 'updateloggingtitle' ) .
 				"</td>
 			</tr>"
 		);
@@ -114,7 +112,7 @@ class SpecialReassignEdits extends SpecialPage {
 				<td>&#160;
 				</td>
 				<td class='mw-submit'>" .
-				Xml::submitButton( $this->msg( 'reassignedits-submit' )->text(),
+				Html::submitButton( $this->msg( 'reassignedits-submit' )->text(),
 					[ 'name' => 'submit', 'tabindex' => '5', 'id' => 'submit' ] ) .
 				"</td>
 			</tr>" .
