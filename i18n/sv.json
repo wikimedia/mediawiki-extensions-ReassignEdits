@@ -3,7 +3,8 @@
 		"authors": [
 			"Jopparn",
 			"Lokal Profil",
-			"Wikimon"
+			"Wikimon",
+			"Stefan2255"
 		]
 	},
 	"reassignedits": "Överför användarredigeringar",
@@ -16,5 +17,6 @@
 	"reassignedits-summary": "Överför redigeringar från en gammal användare till en ny.",
 	"reassignedits-updatelog-title": "Uppdatera användarnamn i loggtitlar",
 	"reassignedits-updatelog-user": "Uppdatera utförande användare i loggar",
+	"action-reassignedits": "överför redigeringar från en gammal användare till en ny",
 	"right-reassignedits": "Överför redigeringar från en gammal användare till en ny"
 }
