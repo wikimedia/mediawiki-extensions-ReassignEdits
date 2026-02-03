@@ -2,12 +2,20 @@
 	"@metadata": {
 		"authors": [
 			"Chrumps",
-			"Darellur"
+			"Darellur",
+			"Woytecr"
 		]
 	},
+	"reassignedits": "Zmiana przydzielenia użytkownika do edycji",
+	"reassignedits-desc": "Umożliwia zmianę przydzielenia użytkownika do edycji z jednego na innego",
 	"reassignedits-error-invalid": "Nazwa użytkownika \"$1\" jest nieprawidłowa.",
 	"reassignedits-new": "Nowa nazwa użytkownika",
 	"reassignedits-old": "Stara nazwa użytkownika",
 	"reassignedits-submit": "Wyślij",
-	"reassignedits-success": "Zmiany stworzone przez \" $1 \"zostały przypisane do\" $2 \"."
+	"reassignedits-success": "Zmiany stworzone przez \" $1 \"zostały przypisane do\" $2 \".",
+	"reassignedits-summary": "Zmień przydzielenie użytkownika do edycji z jednego na innego.",
+	"reassignedits-updatelog-title": "Zaktualizuj nazwę użytkownika w tytułach w rejestrze",
+	"reassignedits-updatelog-user": "Zaktualizuj użytkownika wykonującego w rejestrach",
+	"action-reassignedits": "zmiany przydzielenia użytkownika do edycji z jednego na innego",
+	"right-reassignedits": "Zmiana przydzielenia użytkownika do edycji z jednego na innego"
 }
