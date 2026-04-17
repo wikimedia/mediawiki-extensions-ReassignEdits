@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Priviet",
+			"Tensama0415",
 			"아라"
 		]
 	},
@@ -15,5 +16,6 @@
 	"reassignedits-summary": "기존의 사용자에게서 새로운 사용자에게로 재할당된 편집.",
 	"reassignedits-updatelog-title": "기록 제목의 사용자이름 업데이트",
 	"reassignedits-updatelog-user": "기록상에서 수행한 사용자 업데이트",
+	"action-reassignedits": "기존의 사용자에게서 새로운 사용자에게로 편집을 재할당할",
 	"right-reassignedits": "기존의 사용자에게서 새로운 사용자에게로 재할당된 편집."
 }
