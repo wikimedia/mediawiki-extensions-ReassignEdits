@@ -17,7 +17,12 @@ use MediaWiki\Title\Title;
 
 class SpecialReassignEdits extends SpecialPage {
 	public function __construct() {
-		parent::__construct( 'ReassignEdits', 'reassignedits' );
+		parent::__construct( 'ReassignEdits' );
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'reassignedits';
 	}
 
 	public function doesWrites() {
