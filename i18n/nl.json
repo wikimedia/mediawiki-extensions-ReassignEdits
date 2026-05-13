@@ -9,7 +9,7 @@
 	},
 	"reassignedits": "Gebruikersbewerkingen opnieuw toewijzen",
 	"reassignedits-desc": "Maakt het mogelijk bewerkingen aan een andere gebruiker toe te wijzen",
-	"reassignedits-error-invalid": "De gebruikersnaam \"$1\" is ongeldig.",
+	"reassignedits-error-invalid": "De gebruikersnaam \"$1\" is onjuist.",
 	"reassignedits-new": "Nieuwe gebruikersnaam",
 	"reassignedits-old": "Oude gebruikersnaam",
 	"reassignedits-submit": "Opslaan",
