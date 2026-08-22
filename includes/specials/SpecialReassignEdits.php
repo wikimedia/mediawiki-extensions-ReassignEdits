@@ -44,15 +44,15 @@ class SpecialReassignEdits extends SpecialPage {
 		$user = $this->getUser();
 		if ( !$user->isAllowed( 'reassignedits' ) ) {
 			$this->displayRestrictionError();
-			return;
 		}
 
 		// Show a message if the database is in read-only mode
 		$this->checkReadOnly();
 
 		// If user is blocked, they don't need to access this page
-		if ( $user->getBlock() ) {
-			throw new UserBlockedError( $user->getBlock() );
+		$block = $user->getBlock();
+		if ( $block ) {
+			throw new UserBlockedError( $block );
 		}
 
 		$request = $this->getRequest();
@@ -157,12 +157,6 @@ class SpecialReassignEdits extends SpecialPage {
 		// Get usernames by id
 		$newuser = User::newFromName( $newusername->getText() );
 
-		// It won't be an object if for instance "|" is supplied as a value
-		if ( !is_string( $oldusername->getText() ) ) {
-			$this->outputWikiText( "<div class=\"errorbox\">" . $this->msg( 'reassignedits-error-invalid',
-				"<nowiki>" . $oldusername->getText() . "</nowiki>" )->text() . "</div>" );
-			return;
-		}
 		if ( !is_object( $newuser ) ) {
 			$this->outputWikiText( "<div class=\"errorbox\">" . $this->msg( 'reassignedits-error-invalid',
 				"<nowiki>" . $newusername->getText() . "</nowiki>" )->text() . "</div>" );
