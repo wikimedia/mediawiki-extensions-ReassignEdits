@@ -196,12 +196,7 @@ class SpecialReassignEdits extends SpecialPage {
 	 */
 	private function outputWikiText( $wikitext ) {
 		$output = $this->getOutput();
-		if ( method_exists( $output, 'addWikiTextAsInterface' ) ) {
-			// MW 1.32+
-			$output->addWikiTextAsInterface( $wikitext );
-		} else {
-			$output->addWikiText( $wikitext );
-		}
+		$output->addWikiTextAsInterface( $wikitext );
 	}
 
 	/**

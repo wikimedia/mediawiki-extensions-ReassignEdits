@@ -60,14 +60,9 @@ class ReassignEditsSQL {
 		$dbw->startAtomic( __METHOD__ );
 
 		$newname = $this->new;
-		if ( method_exists( MediaWikiServices::class, 'getUserIdentityLookup' ) ) {
-			// MW 1.36+
-			$userIdentity = MediaWikiServices::getInstance()->getUserIdentityLookup()
-				->getUserIdentityByName( $this->new );
-			$newid = $userIdentity && $userIdentity->isRegistered() ? $userIdentity->getId() : null;
-		} else {
-			$newid = User::idFromName( $this->new );
-		}
+		$userIdentity = MediaWikiServices::getInstance()->getUserIdentityLookup()
+			->getUserIdentityByName( $this->new );
+		$newid = $userIdentity && $userIdentity->isRegistered() ? $userIdentity->getId() : null;
 		$oldname = $this->old;
 
 		// Update archive table (deleted revisions)
