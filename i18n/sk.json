@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"reassignedits": "Preradiť úpravy používateľa",
+	"reassignedits-desc": "Umožňuje preradiť úpravy zo starého používateľa na nového",
+	"reassignedits-error-invalid": "Používateľské meno „$1“ je neplatné.",
+	"reassignedits-new": "Nové používateľské meno",
+	"reassignedits-old": "Staré používateľské meno",
+	"reassignedits-submit": "Odoslať",
+	"reassignedits-success": "Úpravy používateľa „$1“ boli preradené na „$2“.",
+	"reassignedits-summary": "Preradiť úpravy zo starého používateľa na nového.",
+	"reassignedits-updatelog-title": "Aktualizovať používateľské meno v názvoch záznamov",
+	"reassignedits-updatelog-user": "Aktualizovať vykonávajúceho používateľa v záznamoch",
+	"action-reassignedits": "preradiť úpravy zo starého používateľa na nového",
+	"right-reassignedits": "Preradenie úprav zo starého používateľa na nového"
+}
